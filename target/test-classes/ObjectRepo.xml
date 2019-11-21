@@ -1,0 +1,4900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shiksha>
+<National>
+<Listings>
+<ULP>
+<keyword id="ULP_Facility_Close">
+<identifier>xpath</identifier>
+<value>//strong[text()='txtid']/../../../a</value>
+</keyword>
+<keyword id="ULP_Facility_Section">
+<identifier>xpath</identifier>
+<value>//h2[text()='Infrastructure / Facilities']/parent::div</value>
+</keyword>
+<keyword id="ULP_Facility_Detail">
+<identifier>xpath</identifier>
+<value>//strong[text()='txtid']/parent::div</value>
+</keyword>
+<keyword id="ULP_College_Section">
+<identifier>xpath</identifier>
+<value>(//h2[text()=' Colleges/Departments ']/parent::div)//li/p</value>
+</keyword>
+<keyword id="ULP_Gallery_Section">
+<identifier>xpath</identifier>
+<value>//h2[contains(text(),'Gallery')]/parent::section</value>
+</keyword>
+<keyword id="ULP_Admission_Section">
+<identifier>id</identifier>
+<value>admission-div</value>
+</keyword>
+<keyword id="ULP_Admission_Section_Scroll">
+<identifier>xpath</identifier>
+<value>//h2[text()='Admissions']</value>
+</keyword>
+<keyword id="ULP_Footer">
+<identifier>xpath</identifier>
+<value>//div[@class='pad10 pad-btm']</value>
+</keyword>
+<keyword id="ULP_Admission_Frame">
+<identifier>xpath</identifier>
+<value>//iframe[contains(@src,'getAdmissionInfo')]</value>
+</keyword>
+<keyword id="ULP_Scholarship_Section">
+<identifier>xpath</identifier>
+<value>//h2[text()='Scholarships']/parent::div</value>
+</keyword>
+<keyword id = "TOP_Section">
+<identifier>xpath</identifier>
+<value>(//div[@class='card-cmn color-w'])[1]</value>
+</keyword>
+<keyword id='ULP_Highlights_Section'>
+<identifier>xpath</identifier>
+<value>//div[@id='high']</value>
+</keyword>
+<keyword id="ULP_Admission">
+<identifier>xpath</identifier>
+<value>//div[@class='rich-txt-container admission-div']</value>
+</keyword>
+</ULP>
+</Listings>
+<Search_Mobile>
+<keyword id="search_homepage">
+<identifier>xpath</identifier>
+<value>//a[@class='inpt _hmsrchTab']</value>
+</keyword>
+<keyword id="input_search_mobile">
+<identifier>xpath</identifier>
+<value>//input[@type='text']</value>
+</keyword>
+<keyword id="choosing_stream">
+<identifier>xpath</identifier>
+<value>(//p[@class='droptxt'])[1]</value>
+</keyword>
+<keyword id="choosing_course">
+<identifier>xpath</identifier>
+<value>(//p[@class='droptxt'])[2]</value>
+</keyword>
+<keyword id="stream_drplist">
+<identifier>xpath</identifier>
+<value>//li/span[text()='txtid']</value>
+</keyword>
+
+</Search_Mobile>
+<Category_Mobile>
+
+<keyword id="category_L1">
+<identifier>xpath</identifier>
+<value>//label/h2[text()='txtid']</value>
+</keyword>
+<keyword id="category_L2">
+<identifier>xpath</identifier>
+<value>//div/h3[text()='txtid']</value>
+</keyword>
+<keyword id="category_Input_Type">
+<identifier>xpath</identifier>
+<value>//input[@type='text']</value>
+</keyword>
+<keyword id="category_L3">
+<identifier>xpath</identifier>
+<value>//ul//*[text()='txtid']</value>
+</keyword>
+<keyword id="mobile_Shiksha_Logo">
+<identifier>xpath</identifier>
+<value>//a[@class='logo']</value>
+</keyword>
+</Category_Mobile>
+<Category_Desktop>
+<keyword id="loc_Xpath">
+<identifier>xpath</identifier>
+<value>(//li[@class='search-field']//input[@type='text'])[1]</value>
+</keyword>
+<keyword id="type_Search">
+<identifier>xpath</identifier>
+<value>//div[@class='search-form tab searchtab active']//input[@name='search']</value>
+</keyword>
+<keyword id="type_Xpath">
+<identifier>xpath</identifier>
+<value>//ul[@class='searchtab-links']//li//a[@tabname='mohitlvl1']</value>
+</keyword>
+<keyword id="select_First_Search">
+<identifier>xpath</identifier>
+<value>//div[@class='search-college-layer']//li[@value='mohitlvl1']</value>
+</keyword>
+<keyword id="select_First_Loc">
+<identifier>xpath</identifier>
+<value>(//div[@class='chosen-drop']//li)[2]</value>
+</keyword>
+<keyword id="specialization_Xpath">
+<identifier>xpath</identifier>
+<value>//p[@class='CaptionCont SlectBox']//span[text()='Specialization']</value>
+</keyword>
+<keyword id="select_Specialization">
+<identifier>xpath</identifier>
+<value>//div[@class='optWrapper multiple open']//ul[@class='options']//li//label[text()='mohitlvl1']</value>
+</keyword>
+<keyword id="input_Search">
+<identifier>xpath</identifier>
+<value>(//input[@placeholder='mohitlvl1'])[1]</value>
+</keyword>
+<keyword id="drpdwn">
+<identifier>xpath</identifier>
+<value>//p[@class='CaptionCont SlectBox']//span[contains(text(),'mohitlvl1')]</value>
+</keyword>
+<keyword id="selecting_drpdwn">
+<identifier>xpath</identifier>
+<value>//ul[@class='options']//li//label[text()='mohitlvl1']</value>
+</keyword>
+<keyword id="selecting_input">
+<identifier>xpath</identifier>
+<value>//div[@style='display: block;']//li[contains(@value,'mohitlvl1')]</value>
+</keyword>
+<keyword id="exams_Accepted_Xpath">
+<identifier>xpath</identifier>
+<value>//p[@class='CaptionCont SlectBox']//span[text()='Exams Accepted']</value>
+</keyword>
+<keyword id="select_Exams_Accepted">
+<identifier>xpath</identifier>
+<value>//div[@class='optWrapper multiple open']//ul[@class='options']//li//label[text()='mohitlvl1']</value>
+</keyword>
+<keyword id="locselect">
+<identifier>xpath</identifier>
+<value>//div[@class='chosen-drop']//li[text()='mohitlvl1']</value>
+</keyword>
+<keyword id="fees_Xpath">
+<identifier>xpath</identifier>
+<value>//p[@class='CaptionCont SlectBox']//span[text()='Total Fees ']</value>
+</keyword>
+<keyword id="select_Fees">
+<identifier>xpath</identifier>
+<value>//div[@class='optWrapper multiple open']//ul[@class='options']//li//label[text()='mohitlvl1']</value>
+</keyword>
+<keyword id="btn_College">
+<identifier>xpath</identifier>
+<value>//div[@id='submitButtonCollegeSearch']</value>
+</keyword>
+<keyword id="submit_Btn">
+<identifier>xpath</identifier>
+<value>//input[contains(@id,'mohitlvl1')]</value>
+</keyword>
+</Category_Desktop>
+
+
+<Navigation>
+<keyword id="catdesktoplvl1">
+<identifier>xpath</identifier>
+<value>.//section[@class='courseBanner']//div[@class='_cntr']/div/ul/li[text()='mohitlvl1']</value>
+</keyword>
+<keyword id="clg reviewshover">
+<identifier>xpath</identifier>
+<value>.//p[contains(text(),'Want a trusted opinion on your target colleges?')]</value>
+</keyword>
+<keyword id="scrollTo">
+<identifier>xpath</identifier>
+<value>.//section[@class='courseBanner']//div[@class='_cntr']/div/ul/li[text()='Mba']</value>
+</keyword>
+<keyword id="catdesktoplvl2">
+<identifier>xpath</identifier>
+<value>//ul[@class='cFL']//div[strong='mohitlvl1']</value>
+</keyword>
+<keyword id="clg reviews">
+<identifier>xpath</identifier>
+<value>(//*[@data-type='Review'])[2]</value>
+</keyword>
+<keyword id="design last">
+<identifier>xpath</identifier>
+<value>(//div[@class='law-compare']//strong)[1]</value>
+</keyword>
+<keyword id="law last">
+<identifier>xpath</identifier>
+<value>(//div[@class='law-compare']/strong)[2]</value>
+</keyword>
+<keyword id="more accounting">
+<identifier>xpath</identifier>
+<value>//ul[@class='cFL others']//li//div//a//strong[contains(text(),'Accounting')]</value>
+</keyword>
+<keyword id="more banking">
+<identifier>xpath</identifier>
+<value>//ul[@class='cFL others']//li//div//a//strong[contains(text(),'Banking')]</value>
+</keyword>
+<keyword id="more teaching">
+<identifier>xpath</identifier>
+<value>//ul[@class='cFL others']//li//div//a//strong[contains(text(),'Teaching')]</value>
+</keyword>
+<keyword id="more medicine">
+<identifier>xpath</identifier>
+<value>//ul[@class='cFL others']//li//div//a//strong[contains(text(),'Medicine')]</value>
+</keyword>
+<keyword id="more beauty">
+<identifier>xpath</identifier>
+<value>//ul[@class='cFL others']//li//div//a//strong[contains(text(),'Beauty')]</value>
+</keyword>
+<keyword id="catdesktoplvl2more">
+<identifier>xpath</identifier>
+<value>//ul[@class='cFL others']//li//div//a[strong='mohitlvl1']</value>
+</keyword>
+<keyword id="nextpage">
+<identifier>xpath</identifier>
+<value>//a[@class='rightArrow']</value>
+</keyword>
+<keyword id="tillfeature">
+<identifier>xpath</identifier>
+<value>(//div[@class='heading3'])[1]</value>
+</keyword>
+</Navigation>
+
+<Enterprise>
+<keyword id = "ENT_Email">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='username']</value>
+</keyword>
+<keyword id = "ENT_Password">
+	<identifier>id</identifier>
+	<value>password1</value>
+</keyword>
+<keyword id = "ENT_Login">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='loginForm']/ul/li[3]/input</value>
+</keyword>
+<keyword id = "select_Stream">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='stream_1']</value>
+</keyword>
+
+<keyword id = "select_Substream">
+	<identifier>xpath</identifier>
+	<value>.//input[@value='39']/following::label</value>
+</keyword>
+
+<keyword id="click_Calendar">
+<identifier>id</identifier>
+	<value>timeRangeFromImage</value>
+</keyword>
+<keyword id="click_Calendar_sa">
+<identifier>id</identifier>
+	<value>timerange_from_img</value>
+</keyword>
+<keyword id="move_PreviousMonth">
+<identifier>xpath</identifier>
+	<value>.//*[@id='topBar']/div[1]/img</value>
+</keyword>
+<keyword id="pick_Date">
+<identifier>xpath</identifier>
+	<value>.//*[@id='calendarDiv']/div[7]/table/tbody/tr[3]/td[3]</value>
+</keyword>  
+
+<keyword id="click_CalendarTo">
+<identifier>id</identifier>
+	<value>timerange_to_img</value>
+</keyword>
+<keyword id="move_PreviousMonth">
+<identifier>xpath</identifier>
+	<value>.//*[@id='topBar']/div[1]/img</value>
+</keyword>
+<keyword id="pick_Date">
+<identifier>xpath</identifier>
+	<value>.//*[@id='calendarDiv']/div[7]/table/tbody/tr[3]/td[3]</value>
+</keyword>
+
+<keyword id="click_Search">
+<identifier>id</identifier>
+	<value>searchUsers</value>
+</keyword> 
+<keyword id="click_Search_sa">
+<identifier>id</identifier>
+	<value>studentSearchFormMain</value>
+</keyword>
+<keyword id="click_Search_sa_search">
+<identifier>xpath</identifier>
+	<value>.//*[@id='studentSearchFormMain']/div[23]/div/input</value>
+</keyword>
+<keyword id="check_Count">
+<identifier>id</identifier>
+	<value>resultCount</value>
+</keyword>
+
+<keyword id="checkStream">
+<identifier>xpath</identifier>
+	<value>//*[starts-with(@class, "cmsSResult")]</value>
+</keyword>
+
+<keyword id="checkSubstream"> 
+<identifier>xpath</identifier>
+<value>.//*[@id='searchResultDiv']/div/div/div/div[7]/div[1]/div[3]/div[1]/div/div[1]/div/div/div/div[2]</value>
+</keyword>
+<keyword id="select_Institutes">
+<identifier>id</identifier>
+<value>all_institutes</value>
+</keyword>
+
+<keyword id="select_Courses">
+<identifier>id</identifier>
+<value>all_courses</value>
+</keyword>
+<keyword id="click_MR_Search">
+<identifier>xpath</identifier>
+	<value>.//*[@id='studentSearchFormMain']/div[12]/div/input</value>
+</keyword>
+
+</Enterprise>
+
+<CMS>
+<CoursePosting>
+<keyword id = "brochureCheckCourse">
+<identifier>xpath</identifier>
+<value>.//*[@id='institute_brochure_form']//descendant::a[@class='btn cmsButton cmsFont']</value>
+</keyword>
+<keyword id = "CMS_Email">
+<identifier>id</identifier>
+<value>username</value>
+</keyword>
+<keyword id = "CMS_Password">
+<identifier>id</identifier>
+<value>password1</value>
+</keyword>
+<keyword id = "CMS_Login">
+<identifier>xpath</identifier>
+<value>.//*[@id='loginForm']/ul/li[3]/input</value>
+</keyword>
+<keyword id = "CMS_Logo">
+<identifier>xpath</identifier>
+<value>.//*[@id='cmsHeader']/div[1]/a/img</value>
+</keyword>
+<keyword id = "InstituteId">
+<identifier>name</identifier>
+<value>instituteIdSearch</value>
+</keyword>
+<keyword id = "Go!">
+<identifier>xpath</identifier>
+<value>(.//*[@id='course_parent_mapping_form']//descendant::button[@class='btn cmsButton-go'])[2]</value>
+</keyword>
+<keyword id = "selectInstitute">
+<identifier>xpath</identifier>
+<value>.//*[@id='course_parent_mapping_form']//descendant::button[@class='btn cmsButton cmsFont']</value>
+</keyword>
+<keyword id = "credential">
+<identifier>xpath</identifier>
+<value>.//div[@class='form-group']/div[@class = 'col-md-3']/select[@formcontrolname = 'credential']</value>
+</keyword>
+<keyword id = "course_level">
+<identifier>xpath</identifier>
+<value>.//div[@class='form-group']/div[@class = 'col-md-3']/select[@formcontrolname = 'course_level']</value>
+</keyword>
+<keyword id = "hierarchy_stream">
+<identifier>xpath</identifier>
+<value>(.//hierarchyformfield/div/div)[1]/select</value>
+</keyword>
+<keyword id = "course_CLP">
+<identifier>xpath</identifier>
+<value>.//div[@class='form-group']/div[@class = 'col-md-3']/select[@formcontrolname = 'courseMapping']</value>
+</keyword>
+<keyword id = "courseName">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='course_name']</value>
+</keyword>
+<keyword id = "courseDuration">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='duration_value']</value>
+</keyword>
+<keyword id = "selectApproved">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Select Approved')]</value>
+</keyword>
+<keyword id = "selectApprovingBody1">
+<identifier>xpath</identifier>
+<value>(.//ul[@class='dropdown-menu multiSelCustom']/li)[1]/input</value>
+</keyword>
+<keyword id = "selectApprovingBody2">
+<identifier>xpath</identifier>
+<value>(.//ul[@class='dropdown-menu multiSelCustom']/li)[2]/input</value>
+</keyword>
+<keyword id = "selectApprovingBody3">
+<identifier>xpath</identifier>
+<value>(.//ul[@class='dropdown-menu multiSelCustom']/li)[3]/input</value>
+</keyword>
+<keyword id = "affiliationlabel">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Affiliation')]</value>
+</keyword>
+<keyword id = "AffiliationDomestic">
+<identifier>xpath</identifier>
+<value>.//*[@class='radio-inline col-md-6']/input[@value='domestic']</value>
+</keyword>
+<keyword id = "AffiliationUnivId">
+<identifier>xpath</identifier>
+<value>(.//*[@name='universityIdSearch'])[2]</value>
+</keyword>
+<keyword id = "AffiliationUnivGo">
+<identifier>xpath</identifier>
+<value>.//*[@id='course_basic_info_form']//descendant::button[@class='btn btn-primary']</value>
+</keyword>
+<keyword id = "Medium">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Select Medium of Instruction')]</value>
+</keyword>
+<keyword id = "Medium1">
+<identifier>xpath</identifier>
+<value>((.//ul[@class='dropdown-menu multiSelCustom'])[2]/li/input)[1]</value>
+</keyword>
+<keyword id = "Medium2">
+<identifier>xpath</identifier>
+<value>((.//ul[@class='dropdown-menu multiSelCustom'])[2]/li/input)[2]</value>
+</keyword>
+<keyword id = "Medium3">
+<identifier>xpath</identifier>
+<value>((.//ul[@class='dropdown-menu multiSelCustom'])[2]/li/input)[3]</value>
+</keyword>
+<keyword id = "difflevel">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Difficulty Level')]</value>
+</keyword>
+<keyword id = "Beginner">
+<identifier>xpath</identifier>
+<value>(.//label[@class='radio-inline col-md-12']/input[@formcontrolname = 'difficulty_level'])[1]</value>
+</keyword>
+<keyword id = "uspaddmore">
+<identifier>xpath</identifier>
+<value>.//*[@id='course_usp_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "usp1">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='usp'])[1]</value>
+</keyword>
+<keyword id = "usp2">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='usp'])[2]</value>
+</keyword>
+<keyword id = "usp3">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='usp'])[3]</value>
+</keyword>
+<keyword id = "eventaddmore">
+<identifier>xpath</identifier>
+<value>.//*[@id='course_admission_process_form']//descendant::a[contains(text(), 'Add More')]</value>
+</keyword>
+<keyword id = "eventtype1">
+<identifier>xpath</identifier>
+<value>(.//*[@name='eventType'])[1]</value>
+</keyword>
+<keyword id = "eventtype2">
+<identifier>xpath</identifier>
+<value>(.//*[@name='eventType'])[2]</value>
+</keyword>
+<keyword id = "eventdesc1">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='admission_description'])[1]</value>
+</keyword>
+<keyword id = "eventdesc2">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='admission_description'])[2]</value>
+</keyword>
+<keyword id = "coursestructure1">
+<identifier>xpath</identifier>
+<value>(.//*[@formarrayname='group_courses']/div/div/div/div[2]/input)[1]</value>
+</keyword>
+<keyword id = "coursestructure2">
+<identifier>xpath</identifier>
+<value>(.//*[@formarrayname='group_courses']/div/div/div/div[2]/input)[2]</value>
+</keyword>
+<keyword id = "browse">
+<identifier>xpath</identifier>
+<value>(.//shiksha-upload/div)[1]/input</value>
+</keyword>
+<keyword id = "courseFeeYear">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='batch'])[1]</value>
+</keyword>
+<keyword id = "coursefeeAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='course_fees_details_form']//descendant::a [contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "coursefeeData[2]">
+<identifier>xpath</identifier>
+<value>//coursefeestable/div/table/tbody[1]/tr/td[2]/input</value>
+</keyword>
+<keyword id = "coursefeeData[3]">
+<identifier>xpath</identifier>
+<value>//coursefeestable/div/table/tbody[1]/tr/td[3]/input</value>
+</keyword>
+<keyword id = "coursefeeData[4]">
+<identifier>xpath</identifier>
+<value>//coursefeestable/div/table/tbody[1]/tr/td[4]/input</value>
+</keyword>
+<keyword id = "coursefeeDataOTP[2]">
+<identifier>xpath</identifier>
+<value>//coursefeestable/div/table/tbody[2]/tr/td[2]/input</value>
+</keyword>
+<keyword id = "coursefeeDataOTP[3]">
+<identifier>xpath</identifier>
+<value>//coursefeestable/div/table/tbody[2]/tr/td[3]/input</value>
+</keyword>
+<keyword id = "coursefeeDataOTP[4]">
+<identifier>xpath</identifier>
+<value>//coursefeestable/div/table/tbody[2]/tr/td[4]/input</value>
+</keyword>
+<keyword id = "disclamar">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='fees_disclaimer']</value>
+</keyword>
+<keyword id = "hostel">
+<identifier>xpath</identifier>
+<value>(.//*[@id='course_fees_details_form']//descendant::input[@type='checkbox'])[2]</value>
+</keyword>
+<keyword id = "tution">
+<identifier>xpath</identifier>
+<value>(.//*[@id='course_fees_details_form']//descendant::input[@type='checkbox'])[3]</value>
+</keyword>
+<keyword id = "library_CLP">
+<identifier>xpath</identifier>
+<value>(.//*[@id='course_fees_details_form']//descendant::input[@type='checkbox'])[4]</value>
+</keyword>
+<keyword id = "hostelFees[2]">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[2]/input)[1]</value>
+</keyword>
+<keyword id = "hostelFees[3]">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[3]/input)[1]</value>
+</keyword>
+<keyword id = "hostelFees[4]">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[4]/input)[1]</value>
+</keyword>
+<keyword id = "feesotherinfo">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='other_info']</value>
+</keyword>
+<keyword id = "eligibilityYear">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='batch'])[2]</value>
+</keyword>
+<keyword id = "addMoreToAddExam">
+<identifier>xpath</identifier>
+<value>.//*[@class='btn btn-round btn-warning']</value>
+</keyword>
+<keyword id = "selectExam1">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='exam_name'])[1]</value>
+</keyword>
+<keyword id = "selectExam2">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='exam_name'])[2]</value>
+</keyword>
+<keyword id = "examUnit1">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='exam_unit'])[1]</value>
+</keyword>
+<keyword id = "examUnit2">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='exam_unit'])[2]</value>
+</keyword>
+<keyword id = "Eligibilty_10_2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[2]/input)[2]</value>
+</keyword>
+<keyword id = "Eligibilty_10_3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[3]/input)[2]</value>
+</keyword>
+<keyword id = "Eligibilty_10_4">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[4]/input)[2]</value>
+</keyword>
+<keyword id = "Eligibilty_12_2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[2]/input)[3]</value>
+</keyword>
+<keyword id = "Eligibilty_12_3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[3]/input)[3]</value>
+</keyword>
+<keyword id = "Eligibilty_12_4">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[4]/input)[3]</value>
+</keyword>
+<keyword id = "ScoreType_12">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='score_type'])[2]</value>
+</keyword>
+<keyword id = "ScoreType_Grad">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='score_type'])[3]</value>
+</keyword>
+<keyword id = "Eligibilty_Grad_2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[2]/input)[4]</value>
+</keyword>
+<keyword id = "Eligibilty_Grad_3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[3]/input)[4]</value>
+</keyword>
+<keyword id = "Eligibilty_Grad_4">
+<identifier>xpath</identifier>
+<value>(.//*[@id='datatable-fixed-header']/tbody/tr/td[4]/input)[4]</value>
+</keyword>
+<keyword id = "12outof">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='outof'])[1]</value>
+</keyword>
+<keyword id = "gradoutof">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='outof'])[2]</value>
+</keyword>
+<keyword id = "other_10">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='description'])[1]</value>
+</keyword>
+<keyword id = "other_12">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='description'])[2]</value>
+</keyword>
+<keyword id = "other_grad">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='description'])[3]</value>
+</keyword>
+<keyword id = "anyotherEligibility">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='description'])[4]</value>
+</keyword>
+<keyword id = "mandatorysubjects">
+<identifier>xpath</identifier>
+<value>(.//mymultiselect[@class='ng-pristine ng-valid ng-touched']/div/div/button)[1]</value>
+</keyword>
+<keyword id = "Agriculture">
+<identifier>xpath</identifier>
+<value>.//*[@value='Agriculture']</value>
+</keyword>
+<keyword id = "Arts">
+<identifier>xpath</identifier>
+<value>.//*[@value='Arts']</value>
+</keyword>
+<keyword id = "baseCourse">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='base_course']</value>
+</keyword>
+<keyword id = "Exam1_1">
+<identifier>xpath</identifier>
+<value>.//*[@formarrayname='exams_accepted']/table/tbody/tr[1]/td[3]/input</value>
+</keyword>
+<keyword id = "Exam1_2">
+<identifier>xpath</identifier>
+<value>.//*[@formarrayname='exams_accepted']/table/tbody/tr[1]/td[4]/input</value>
+</keyword>
+<keyword id = "Exam1_3">
+<identifier>xpath</identifier>
+<value>.//*[@formarrayname='exams_accepted']/table/tbody/tr[1]/td[5]/input</value>
+</keyword>
+<keyword id = "Exam2_1">
+<identifier>xpath</identifier>
+<value>.//*[@formarrayname='exams_accepted']/table/tbody/tr[2]/td[3]/input</value>
+</keyword>
+<keyword id = "Exam2_2">
+<identifier>xpath</identifier>
+<value>.//*[@formarrayname='exams_accepted']/table/tbody/tr[2]/td[4]/input</value>
+</keyword>
+<keyword id = "Exam2_3">
+<identifier>xpath</identifier>
+<value>.//*[@formarrayname='exams_accepted']/table/tbody/tr[2]/td[5]/input</value>
+</keyword>
+<keyword id = "minex">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Minimum months']</value>
+</keyword>
+<keyword id = "maxex">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Maximum months']</value>
+</keyword>
+<keyword id = "minage">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Minimum age']</value>
+</keyword>
+<keyword id = "maxage">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Maximum age']</value>
+</keyword>
+<keyword id = "International">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='international_description']</value>
+</keyword>
+<keyword id = "cutoff_science_1">
+<identifier>xpath</identifier>
+<value>.//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[2]/td[2]/input</value>
+</keyword>
+<keyword id = "cutoff_science_2">
+<identifier>xpath</identifier>
+<value>.//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[2]/td[3]/input</value>
+</keyword>
+<keyword id = "cutoff_science_3">
+<identifier>xpath</identifier>
+<value>.//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[2]/td[4]/input</value>
+</keyword>
+<keyword id = "cutoff_Commerce_1">
+<identifier>xpath</identifier>
+<value>.//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[3]/td[2]/input</value>
+</keyword>
+<keyword id = "cutoff_Commerce_2">
+<identifier>xpath</identifier>
+<value>.//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[3]/td[3]/input</value>
+</keyword>
+<keyword id = "cutoff_Commerce_3">
+<identifier>xpath</identifier>
+<value>.//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[3]/td[4]/input</value>
+</keyword>
+<keyword id = "cutoff_exam">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='exam_id']</value>
+</keyword>
+<keyword id = "cutoff_examyear">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='exam_year']</value>
+</keyword>
+<keyword id = "cutoff_allIndia_1">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[1]/td[2]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_allIndia_2">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[1]/td[3]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_allIndia_3">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[1]/td[4]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_home_1">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[2]/td[2]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_home_2">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[2]/td[3]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_home_3">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[2]/td[4]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_otherstate_1">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[3]/td[2]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_otherstate_2">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[3]/td[3]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_otherstate_3">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[3]/td[4]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_related_1">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[4]/td[2]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_related_2">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[4]/td[3]/input)[2]</value>
+</keyword>
+<keyword id = "cutoff_related_3">
+<identifier>xpath</identifier>
+<value>(//course-exams-table-component/div/table[@id = 'datatable-fixed-header']/tbody/tr[4]/td[4]/input)[2]</value>
+</keyword>
+<keyword id = "relatedstatebutton">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='related_states']/div/div/button</value>
+</keyword>
+<keyword id = "selectState1">
+<identifier>xpath</identifier>
+<value>(.//*[@value='129'])[3]</value>
+</keyword>
+<keyword id = "selectState2">
+<identifier>xpath</identifier>
+<value>(.//*[@value='100'])[4]</value>
+</keyword>
+<keyword id = "cutoffcollapse">
+<identifier>xpath</identifier>
+<value>(.//*[@class='collapse-link'])[11]</value>
+</keyword>
+<keyword id = "seatscollapse">
+<identifier>xpath</identifier>
+<value>(.//*[@class='collapse-link'])[12]</value>
+</keyword>
+<keyword id = "TotalSeats">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='total_seats']</value>
+</keyword>
+<keyword id = "seats_1">
+<identifier>xpath</identifier>
+<value>.//*[@formgroupname='seats_by_category']/addcolumntablecomponent/div/table[@id='datatable-fixed-header']/tbody/tr/td[1]/input</value>
+</keyword>
+<keyword id = "seats_2">
+<identifier>xpath</identifier>
+<value>.//*[@formgroupname='seats_by_category']/addcolumntablecomponent/div/table[@id='datatable-fixed-header']/tbody/tr/td[2]/input</value>
+</keyword>
+<keyword id = "seats_3">
+<identifier>xpath</identifier>
+<value>.//*[@formgroupname='seats_by_category']/addcolumntablecomponent/div/table[@id='datatable-fixed-header']/tbody/tr/td[3]/input</value>
+</keyword>
+<keyword id = "examseat_1">
+<identifier>xpath</identifier>
+<value>(.//*[@formgroupname='seats_by_entrance_exam']/tr/td/input)[1]</value>
+</keyword>
+<keyword id = "examseat_2">
+<identifier>xpath</identifier>
+<value>(.//*[@formgroupname='seats_by_entrance_exam']/tr/td/input)[2]</value>
+</keyword>
+<keyword id = "homestate_seats">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='home_state']</value>
+</keyword>
+<keyword id = "relatedstate_seats">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='related_state']</value>
+</keyword>
+<keyword id = "otherstate_seats">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='others_state']</value>
+</keyword>
+<keyword id = "seats_relatedState">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='related_state_list']/div/div/button</value>
+</keyword>
+<keyword id = "seats_relatedState_1">
+<identifier>xpath</identifier>
+<value>(.//*[@value='129'])[4]</value>
+</keyword>
+<keyword id = "seats_relatedState_2">
+<identifier>xpath</identifier>
+<value>(.//*[@value='100'])[5]</value>
+</keyword>
+<keyword id = "placementscollapse">
+<identifier>xpath</identifier>
+<value>(.//*[@class='collapse-link'])[13]</value>
+</keyword>
+<keyword id = "placementsyear">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='batch'])[3]</value>
+</keyword>
+<keyword id = "placementcourse">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='course']</value>
+</keyword>
+<keyword id = "batchpercent">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='batch_percentage']</value>
+</keyword>
+<keyword id = "minsal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='batch_min_salary']</value>
+</keyword>
+<keyword id = "mediansal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='batch_median_salary']</value>
+</keyword>
+<keyword id = "avgsal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='batch_average_salary']</value>
+</keyword>
+<keyword id = "maxsal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='batch_max_salary']</value>
+</keyword>
+<keyword id = "intloffers">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='international_offers']</value>
+</keyword>
+<keyword id = "intlofferssal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='max_salary']</value>
+</keyword>
+<keyword id = "uploadplacementreport">
+<identifier>xpath</identifier>
+<value>(.//shiksha-upload/div/input)[2]</value>
+</keyword>
+<keyword id = "companies">
+<identifier>xpath</identifier>
+<value>(.//select[@id='pickData'])[1]</value>
+</keyword>
+<keyword id = "addcompanies">
+<identifier>xpath</identifier>
+<value>(.//*[@id='pAdd'])[1]</value>
+</keyword>
+<keyword id = "internshipcollapse">
+<identifier>xpath</identifier>
+<value>(.//*[@class='collapse-link'])[14]</value>
+</keyword>
+<keyword id = "internshipbatch">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='intern_batch']</value>
+</keyword>
+<keyword id = "internshipminsal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='intern_min_stipend']</value>
+</keyword>
+<keyword id = "internshipmediansal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='intern_median_stipend']</value>
+</keyword>
+<keyword id = "internshipavgsal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='intern_average_stipend']</value>
+</keyword>
+<keyword id = "internshipmaxsal">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='intern_max_stipend']</value>
+</keyword>
+<keyword id = "uploadintershipreport">
+<identifier>xpath</identifier>
+<value>(.//shiksha-upload/div/input)[3]</value>
+</keyword>
+<keyword id = "addlocations">
+<identifier>xpath</identifier>
+<value>(.//*[@id='pAdd'])[2]</value>
+</keyword>
+<keyword id = "locations">
+<identifier>xpath</identifier>
+<value>(.//select[@id='pickData'])[2]</value>
+</keyword>
+<keyword id = "gallery">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Select All')]</value>
+</keyword>
+<keyword id = "comments">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='comment']</value>
+</keyword>
+<keyword id = "publish">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Save and Publish')]</value>
+</keyword>
+<keyword id = "courseId">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Course ID')]</value>
+</keyword>
+<keyword id = "partnercollapse">
+<identifier>xpath</identifier>
+<value>(.//*[@class='collapse-link'])[15]</value>
+</keyword>
+<keyword id = "partneryes">
+<identifier>xpath</identifier>
+<value>.//*[@formcontrolname='course_partner_institute_flag' and @value='1']</value>
+</keyword>
+<keyword id = "duration_1">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='duration_value'])[2]</value>
+</keyword>
+<keyword id = "univ_id">
+<identifier>xpath</identifier>
+<value>(.//*[@name='universityIdSearch'])[3]</value>
+</keyword>
+<keyword id = "univ_id_go">
+<identifier>xpath</identifier>
+<value>(.//*[@id='course_partner_institute']//descendant::button[@class='btn btn-primary'])[1]</value>
+</keyword>
+<keyword id = "duration_2">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='duration_value'])[3]</value>
+</keyword>
+<keyword id = "datescollapse">
+<identifier>xpath</identifier>
+<value>(.//*[@class='collapse-link'])[16]</value>
+</keyword>
+<keyword id = "date_application_month">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='month'])[1]</value>
+</keyword>
+<keyword id = "date_application_year">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='year'])[1]</value>
+</keyword>
+<keyword id = "date_submit_month">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='month'])[3]</value>
+</keyword>
+<keyword id = "date_submit_year">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='year'])[3]</value>
+</keyword>
+<keyword id = "date_Commencement_month">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='month'])[5]</value>
+</keyword>
+<keyword id = "date_Commencement_year">
+<identifier>xpath</identifier>
+<value>(.//*[@formcontrolname='year'])[5]</value>
+</keyword>
+</CoursePosting>
+<InstitutePosting>
+<keyword id = "brochureCheckInstitute">
+<identifier>xpath</identifier>
+<value>.//*[@id='institute_brochure_form']//descendant::a[@class='btn cmsButton cmsFont']</value>
+</keyword>
+<keyword id = "logoCheckInstitute">
+<identifier>xpath</identifier>
+<value>//*[@id='media_photo_form']//descendant::a[@class = 'btn btn-default']</value>
+</keyword>
+<keyword id = "insphotoCheck1">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[1]</value>
+</keyword>
+<keyword id = "insphotoCheck2">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[2]</value>
+</keyword>
+<keyword id = "insphotoCheck3">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[3]</value>
+</keyword>
+<keyword id = "videoCheck1">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[4]</value>
+</keyword>
+<keyword id = "insvideoCheck2">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[5]</value>
+</keyword>
+<keyword id = "insvideoCheck3">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[6]</value>
+</keyword>
+<keyword id = "CMS_Email">
+<identifier>id</identifier>
+<value>username</value>
+</keyword>
+<keyword id = "CMS_Password">
+<identifier>id</identifier>
+<value>password1</value>
+</keyword>
+<keyword id = "CMS_Login">
+<identifier>xpath</identifier>
+<value>.//*[@id='loginForm']/ul/li[3]/input</value>
+</keyword>
+<keyword id = "CMS_Logo">
+<identifier>xpath</identifier>
+<value>.//*[@id='cmsHeader']/div[1]/a/img</value>
+</keyword>
+<keyword id = "univId">
+<identifier>name</identifier>
+<value>universityIdSearch</value>
+</keyword>
+<keyword id = "univGo">
+<identifier>xpath</identifier>
+<value>(.//*[@id='university_parent_mapping_form']//descendant::button[contains(@class,'btn cmsButton')])[1]</value>
+</keyword>
+<keyword id = "univselect">
+<identifier>xpath</identifier>
+<value>(.//*[@id='university_parent_mapping_form']//descendant::button[contains(@class,'btn cmsButton cmsFont')])[1]</value>
+</keyword>
+<keyword id = "insName">
+<identifier>name</identifier>
+<value>name</value>
+</keyword>
+<keyword id = "selectCity">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Select city']</value>
+</keyword>
+<keyword id = "shortname">
+<identifier>name</identifier>
+<value>shortname</value>
+</keyword>
+<keyword id = "abbreviation">
+<identifier>name</identifier>
+<value>abbreviation</value>
+</keyword>
+<keyword id = "synonymAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='basic_info_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "synonym1">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter Synonym'])[1]</value>
+</keyword>
+<keyword id = "synonym2">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter Synonym'])[2]</value>
+</keyword>
+<keyword id = "establishment_year">
+<identifier>name</identifier>
+<value>establishment_year</value>
+</keyword>
+<keyword id = "ownership">
+<identifier>name</identifier>
+<value>ownership</value>
+</keyword>
+<keyword id = "isAutonomous">
+<identifier>name</identifier>
+<value>isAutonomous</value>
+</keyword>
+<keyword id = "isNationalImportance">
+<identifier>name</identifier>
+<value>isNationalImportance</value>
+</keyword>
+<keyword id = "accreditation">
+<identifier>name</identifier>
+<value>accreditation</value>
+</keyword>
+<keyword id = "facultyAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='academic_staff_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "faculty1">
+<identifier>xpath</identifier>
+<value>(.//*[@name='type'])[1]</value>
+</keyword>
+<keyword id = "faculty2">
+<identifier>xpath</identifier>
+<value>(.//*[@name='type'])[2]</value>
+</keyword>
+<keyword id = "faculty1name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[1]</value>
+</keyword>
+<keyword id = "faculty1designation">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[2]</value>
+</keyword>
+<keyword id = "faculty1education">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[3]</value>
+</keyword>
+<keyword id = "faculty1high">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::textarea[@type='text'])[1]</value>
+</keyword>
+<keyword id = "faculty2name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[4]</value>
+</keyword>
+<keyword id = "faculty2designation">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[5]</value>
+</keyword>
+<keyword id = "faculty2education">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[6]</value>
+</keyword>
+<keyword id = "faculty2high">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::textarea[@type='text'])[2]</value>
+</keyword>
+<keyword id = "facultyHighlights">
+<identifier>name</identifier>
+<value>faculty_highlights</value>
+</keyword>
+<keyword id = "library">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[1]</value>
+</keyword>
+<keyword id = "wifi">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[2]</value>
+</keyword>
+<keyword id = "store">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[4]</value>
+</keyword>
+<keyword id = "cafe">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[5]</value>
+</keyword>
+<keyword id = "shuttle">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[6]</value>
+</keyword>
+<keyword id = "audi">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[7]</value>
+</keyword>
+<keyword id = "hospital">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[8]</value>
+</keyword>
+<keyword id = "sports">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[9]</value>
+</keyword>
+<keyword id = "gym">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[10]</value>
+</keyword>
+<keyword id = "libhigh">
+<identifier>xpath</identifier>
+<value>(.//*[@id='facilities_form']//descendant::textarea[@type='text'])[1]</value>
+</keyword>
+<keyword id = "Gymhigh">
+<identifier>xpath</identifier>
+<value>(.//*[@id='facilities_form']//descendant::textarea[@type='text'])[5]</value>
+</keyword>
+<keyword id = "ac">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[11]</value>
+</keyword>
+<keyword id = "labs">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[12]</value>
+</keyword>
+<keyword id = "researchAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='research_projects_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "researchText1">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter research'])[1]</value>
+</keyword>
+<keyword id = "researchText2">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter research'])[2]</value>
+</keyword>
+<keyword id = "researchText3">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter research'])[3]</value>
+</keyword>
+<keyword id = "EventAddMore">
+<identifier>xpath</identifier>
+<value>(//*[contains(text(), '+ Add More')])[4]</value>
+</keyword>
+<keyword id = "Event1">
+<identifier>xpath</identifier>
+<value>(.//*[@name='eventType'])[1]</value>
+</keyword>
+<keyword id = "Event2">
+<identifier>xpath</identifier>
+<value>(.//*[@name='eventType'])[2]</value>
+</keyword>
+<keyword id = "Event1Name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::input[@type='text'])[1]</value>
+</keyword>
+<keyword id = "Event2Name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::input[@type='text'])[2]</value>
+</keyword>
+<keyword id = "Event1Description">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::textarea[@type='text'])[1]</value>
+</keyword>
+<keyword id = "Event2Description">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::textarea[@type='text'])[2]</value>
+</keyword>
+<keyword id = "USPAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='usp_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "USP1">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[1]</value>
+</keyword>
+<keyword id = "USP2">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[2]</value>
+</keyword>
+<keyword id = "USP3">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[3]</value>
+</keyword>
+<keyword id = "USP4">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[4]</value>
+</keyword>
+<keyword id = "USP5">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[5]</value>
+</keyword>
+<keyword id = "browseInstitute">
+<identifier>xpath</identifier>
+<value>.//*[@id='institute_brochure_form']//descendant::input[@type='file']</value>
+</keyword>
+<keyword id = "AddMLCity">
+<identifier>xpath</identifier>
+<value>.//*[@id='usp_form']//descendant::button[text()='Add']</value>
+</keyword>
+<keyword id = "selectMLCity">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Select City']</value>
+</keyword>
+<keyword id = "uploadLogo">
+<identifier>xpath</identifier>
+<value>(.//shiksha-upload/div)[1]/input</value>
+</keyword>
+<keyword id = "uploadmedia">
+<identifier>xpath</identifier>
+<value>(.//shiksha-upload/div/input[contains(@name, 'mediaFile')])[2]</value>
+</keyword>
+<keyword id = "uploadmediatitle">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter title'])[1]</value>
+</keyword>
+<keyword id = "upload">
+<identifier>xpath</identifier>
+<value>(.//*[text()='Upload'])[1]</value>
+</keyword>
+<keyword id = "videotitle">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter title'])[2]</value>
+</keyword>
+<keyword id = "videourl">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Enter url']</value>
+</keyword>
+<keyword id = "videoupload">
+<identifier>xpath</identifier>
+<value>(.//*[text()='Upload'])[2]</value>
+</keyword>
+<keyword id = "scholarshipAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='scholarship_form']//descendant::button[text()='+ Add More']</value>
+</keyword>
+<keyword id = "scholarship1">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::select)[1]</value>
+</keyword>
+<keyword id = "scholarship2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::select)[2]</value>
+</keyword>
+<keyword id = "scholarship3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::select)[3]</value>
+</keyword>
+<keyword id = "scholarshipform1">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::textarea)[1]</value>
+</keyword>
+<keyword id = "scholarshipform2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::textarea)[2]</value>
+</keyword>
+<keyword id = "scholarshipform3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::textarea)[3]</value>
+</keyword>
+<keyword id = "recrutingcompanies">
+<identifier>xpath</identifier>
+<value>.//ng-select[@placeholder='Select companies']/div</value>
+</keyword>
+<keyword id = "recrutingcompany">
+<identifier>xpath</identifier>
+<value>.//input[@placeholder='Select companies']</value>
+</keyword>
+<keyword id = "selectcompany">
+<identifier>xpath</identifier>
+<value>.//*[@class='dropdown-item']/div</value>
+</keyword>
+<keyword id = "postInstitutecomments">
+<identifier>xpath</identifier>
+<value>(.//*[@id='seo_specification_form']//descendant::textarea)[2]</value>
+</keyword>
+<keyword id = "publishinstitute">
+<identifier>xpath</identifier>
+<value>.//*[text()='Save and Publish']</value>
+</keyword>
+
+</InstitutePosting>
+<UniversityPosting>
+<keyword id = "brochureCheck">
+<identifier>xpath</identifier>
+<value>.//*[@id='institute_brochure_form']//descendant::a[@class='btn cmsButton cmsFont']</value>
+</keyword>
+<keyword id = "logoCheck">
+<identifier>xpath</identifier>
+<value>//*[@id='media_photo_form']//descendant::a[@class = 'btn btn-default']</value>
+</keyword>
+<keyword id = "photoCheck1">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[1]</value>
+</keyword>
+<keyword id = "photoCheck2">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[2]</value>
+</keyword>
+<keyword id = "photoCheck3">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[3]</value>
+</keyword>
+<keyword id = "videoCheck1">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[4]</value>
+</keyword>
+<keyword id = "videoCheck2">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[5]</value>
+</keyword>
+<keyword id = "videoCheck3">
+<identifier>xpath</identifier>
+<value>(//a[@class='btn cmsButton cmsFont'][contains(text(),'View')])[6]</value>
+</keyword>
+<keyword id = "CMS_Email">
+<identifier>id</identifier>
+<value>username</value>
+</keyword>
+<keyword id = "CMS_Password">
+<identifier>id</identifier>
+<value>password1</value>
+</keyword>
+<keyword id = "CMS_Login">
+<identifier>xpath</identifier>
+<value>.//*[@id='loginForm']/ul/li[3]/input</value>
+</keyword>
+<keyword id = "CMS_verify">
+<identifier>xpath</identifier>
+<value>.//*[@id='cmsHeader']/div[1]/a/img</value>
+</keyword>
+<keyword id = "UnivName">
+<identifier>xpath</identifier>
+<value>.//*[@name='name']</value>
+</keyword>
+<keyword id = "univCity">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Select city']</value>
+</keyword>
+<keyword id = "univabb">
+<identifier>xpath</identifier>
+<value>.//*[@name='abbreviation']</value>
+</keyword>
+<keyword id = "univsynomymadd">
+<identifier>xpath</identifier>
+<value>.//*[@id='basic_info_form']//descendant::button[text()='+ Add More']</value>
+</keyword>
+<keyword id = "univsynomym1">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter Synonym'])[1]</value>
+</keyword>
+<keyword id = "univsynomym2">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter Synonym'])[2]</value>
+</keyword>
+<keyword id = "univsynomym3">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter Synonym'])[3]</value>
+</keyword>
+<keyword id = "univEstdYear">
+<identifier>xpath</identifier>
+<value>.//*[@name='establishment_year']</value>
+</keyword>
+<keyword id = "univUnivYear">
+<identifier>xpath</identifier>
+<value>.//*[@name='establish_university_year']</value>
+</keyword>
+<keyword id = "univType">
+<identifier>xpath</identifier>
+<value>.//*[@name='university_type']</value>
+</keyword>
+<keyword id = "univownership">
+<identifier>name</identifier>
+<value>ownership</value>
+</keyword>
+<keyword id = "univOpen">
+<identifier>name</identifier>
+<value>openUniversity</value>
+</keyword>
+<keyword id = "univUGC">
+<identifier>name</identifier>
+<value>ugcApproved</value>
+</keyword>
+<keyword id = "univAIU">
+<identifier>name</identifier>
+<value>aiuMembership</value>
+</keyword>
+<keyword id = "univNationalImp">
+<identifier>name</identifier>
+<value>isNationalImportance</value>
+</keyword>
+<keyword id = "univaccredatin">
+<identifier>name</identifier>
+<value>accreditation</value>
+</keyword>
+<keyword id = "univfacultyAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='academic_staff_form']//descendant::button[text()='+ Add More']</value>
+</keyword>
+<keyword id = "univfaculty1">
+<identifier>xpath</identifier>
+<value>(.//*[@name='type'])[1]</value>
+</keyword>
+<keyword id = "univfaculty2">
+<identifier>xpath</identifier>
+<value>(.//*[@name='type'])[2]</value>
+</keyword>
+<keyword id = "univfaculty1name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[1]</value>
+</keyword>
+<keyword id = "univfaculty1designation">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[2]</value>
+</keyword>
+<keyword id = "univfaculty1education">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[3]</value>
+</keyword>
+<keyword id = "univfaculty1high">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::textarea[@type='text'])[1]</value>
+</keyword>
+<keyword id = "univfaculty2name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[4]</value>
+</keyword>
+<keyword id = "univfaculty2designation">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[5]</value>
+</keyword>
+<keyword id = "univfaculty2education">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::input[@type='text'])[6]</value>
+</keyword>
+<keyword id = "univfaculty2high">
+<identifier>xpath</identifier>
+<value>(.//*[@id='academic_staff_form']//descendant::textarea[@type='text'])[2]</value>
+</keyword>
+<keyword id = "univfacultyHighlights">
+<identifier>name</identifier>
+<value>faculty_highlights</value>
+</keyword>
+<keyword id = "univlibrary">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[1]</value>
+</keyword>
+<keyword id = "univwifi">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[2]</value>
+</keyword>
+<keyword id = "univstore">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[4]</value>
+</keyword>
+<keyword id = "univcafe">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[5]</value>
+</keyword>
+<keyword id = "univshuttle">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[6]</value>
+</keyword>
+<keyword id = "univaudi">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[7]</value>
+</keyword>
+<keyword id = "univhospital">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[8]</value>
+</keyword>
+<keyword id = "univsports">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[9]</value>
+</keyword>
+<keyword id = "univgym">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[10]</value>
+</keyword>
+<keyword id = "univlibhigh">
+<identifier>xpath</identifier>
+<value>(.//*[@id='facilities_form']//descendant::textarea[@type='text'])[1]</value>
+</keyword>
+<keyword id = "univGymhigh">
+<identifier>xpath</identifier>
+<value>(.//*[@id='facilities_form']//descendant::textarea[@type='text'])[5]</value>
+</keyword>
+<keyword id = "univac">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[11]</value>
+</keyword>
+<keyword id = "univlabs">
+<identifier>xpath</identifier>
+<value>(.//*[@type='radio' and @value ='yes'])[12]</value>
+</keyword>
+<keyword id = "univresearchAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='research_projects_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "univresearchText1">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter research'])[1]</value>
+</keyword>
+<keyword id = "univresearchText2">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter research'])[2]</value>
+</keyword>
+<keyword id = "univresearchText3">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter research'])[3]</value>
+</keyword>
+<keyword id = "univEventAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='event_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "univEvent1">
+<identifier>xpath</identifier>
+<value>(.//*[@name='eventType'])[1]</value>
+</keyword>
+<keyword id = "univEvent2">
+<identifier>xpath</identifier>
+<value>(.//*[@name='eventType'])[2]</value>
+</keyword>
+<keyword id = "univEvent1Name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::input[@type='text'])[1]</value>
+</keyword>
+<keyword id = "univEvent2Name">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::input[@type='text'])[2]</value>
+</keyword>
+<keyword id = "univEvent1Description">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::textarea[@type='text'])[1]</value>
+</keyword>
+<keyword id = "univEvent2Description">
+<identifier>xpath</identifier>
+<value>(.//*[@id='event_form']//descendant::textarea[@type='text'])[2]</value>
+</keyword>
+<keyword id = "univUSPAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='usp_form']//descendant::button[contains(text(), '+ Add More')]</value>
+</keyword>
+<keyword id = "univUSP1">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[1]</value>
+</keyword>
+<keyword id = "univUSP2">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[2]</value>
+</keyword>
+<keyword id = "univUSP3">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[3]</value>
+</keyword>
+<keyword id = "univUSP4">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[4]</value>
+</keyword>
+<keyword id = "univUSP5">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter USP'])[5]</value>
+</keyword>
+<keyword id = "browseuniv">
+<identifier>xpath</identifier>
+<value>.//*[@id='institute_brochure_form']//descendant::input[@type='file']</value>
+</keyword>
+<keyword id = "univuploadLogo">
+<identifier>xpath</identifier>
+<value>(.//shiksha-upload/div)[1]/input</value>
+</keyword>
+<keyword id = "univuploadmedia">
+<identifier>xpath</identifier>
+<value>(.//shiksha-upload/div/input[contains(@name, 'mediaFile')])[2]</value>
+</keyword>
+<keyword id = "univuploadmediatitle">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter title'])[1]</value>
+</keyword>
+<keyword id = "univupload">
+<identifier>xpath</identifier>
+<value>(.//*[text()='Upload'])[1]</value>
+</keyword>
+<keyword id = "univvideotitle">
+<identifier>xpath</identifier>
+<value>(.//*[@placeholder='Enter title'])[2]</value>
+</keyword>
+<keyword id = "univvideourl">
+<identifier>xpath</identifier>
+<value>.//*[@placeholder='Enter url']</value>
+</keyword>
+<keyword id = "univvideoupload">
+<identifier>xpath</identifier>
+<value>(.//*[text()='Upload'])[2]</value>
+</keyword>
+<keyword id = "univscholarshipAddMore">
+<identifier>xpath</identifier>
+<value>.//*[@id='scholarship_form']//descendant::button[text()='+ Add More']</value>
+</keyword>
+<keyword id = "univselectPhotoLocation">
+<identifier>xpath</identifier>
+<value>(.//*[@id='media_photo_form'])[1]//descendant::input[@value='29_0']</value>
+</keyword>
+<keyword id = "univselectPhotobutton">
+<identifier>xpath</identifier>
+<value>(.//*[@id='media_photo_form'])[1]//descendant::button</value>
+</keyword>
+<keyword id = "univselectvideoLocation">
+<identifier>xpath</identifier>
+<value>(.//*[@id='media_photo_form'])[2]//descendant::input[@value='29_0']</value>
+</keyword>
+<keyword id = "univselectvideobutton">
+<identifier>xpath</identifier>
+<value>(.//*[@id='media_photo_form'])[2]//descendant::button</value>
+</keyword>
+<keyword id = "univscholarship1">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::select)[1]</value>
+</keyword>
+<keyword id = "univscholarship2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::select)[2]</value>
+</keyword>
+<keyword id = "univscholarship3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::select)[3]</value>
+</keyword>
+<keyword id = "univscholarshipform1">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::textarea)[1]</value>
+</keyword>
+<keyword id = "univscholarshipform2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::textarea)[2]</value>
+</keyword>
+<keyword id = "univscholarshipform3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='scholarship_form']//descendant::textarea)[3]</value>
+</keyword>
+<keyword id = "univrecrutingcompanies">
+<identifier>xpath</identifier>
+<value>.//ng-select[@placeholder='Select companies']/div</value>
+</keyword>
+<keyword id = "univrecrutingcompany">
+<identifier>xpath</identifier>
+<value>.//input[@placeholder='Select companies']</value>
+</keyword>
+<keyword id = "univselectcompany">
+<identifier>xpath</identifier>
+<value>.//*[@class='dropdown-item']/div</value>
+</keyword>
+<keyword id = "postunivcomments">
+<identifier>xpath</identifier>
+<value>(.//*[@id='seo_specification_form']//descendant::textarea)[2]</value>
+</keyword>
+<keyword id = "publishuniv">
+<identifier>xpath</identifier>
+<value>.//*[text()='Save and Publish']</value>
+</keyword>
+</UniversityPosting>
+</CMS>
+<filter>
+
+<Mobile-Filter>
+<keyword id="Mobile_Filter_Link">
+<identifier>id</identifier>
+<value>searchPageFilterLink</value>
+</keyword>
+<keyword id="Mobile_Filters">
+<identifier>xpath</identifier>
+<value>//ul[@class='filter-container']/li[txtid]</value>
+</keyword>
+<keyword id="Mobile_Filters_All">
+<identifier>xpath</identifier>
+<value>//ul[@class='filter-container']/li</value>
+</keyword>
+<keyword id="Mobile_Filter_Specific">
+<identifier>xpath</identifier>
+<value>//div[contains(@id,'srchfilterTab')][txtid]/ul//li</value>
+</keyword>
+<keyword id="Apply_Filter_Btn">
+<identifier>xpath</identifier>
+<value>//a[@class='green-btn filter-btn']</value>
+</keyword>
+<keyword id="Count_College">
+<identifier>xpath</identifier>
+<value>//div[@class='loc-title clg-count']//span</value>
+</keyword>
+<keyword id="Filtered_More_Lnk">
+<identifier>id</identifier>
+<value>plusMoreFilterLink</value>
+</keyword>
+<keyword id="Selected_Filters">
+<identifier>xpath</identifier>
+<value>//div[@class='select-box']</value>
+</keyword>
+<keyword id="Clear_All">
+<identifier>xpath</identifier>
+<value>//a[@class='clear-all']</value>
+</keyword>
+<keyword id="Selcted_Noticification">
+<identifier>xpath</identifier>
+<value>//p[@class='msprite count-img']</value>
+</keyword>
+</Mobile-Filter>
+
+</filter>
+
+
+<FE>
+<CTA_Desktop>
+
+<keyword id = "userIcon">
+<identifier>xpath</identifier>
+<value>.//span//a[@class='n-username']</value>
+</keyword>
+
+
+<keyword id = "UILP_shortlist">
+	<identifier>xpath</identifier>
+	<value>.//a[@cta-type='shortlist']</value>
+</keyword>
+
+<keyword id = "UILP_DEB">
+	<identifier>xpath</identifier>
+	<value>.//div[@id='CTASection']/a[@cta-type='download_brochure']</value>
+</keyword>
+
+<keyword id = "UILP_SCD">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='showContactDetails']</value>
+</keyword>
+
+<keyword id = "Student_View">
+	<identifier>xpath</identifier>
+	<value>.//h2[contains(text(),'Students who viewed this ')]</value>
+</keyword>
+
+<keyword id = "UILP_alsoViewed">
+	<identifier>xpath</identifier>
+	<value>(.//div[@class='new-card-dtls']//a[@cta-type='download_brochure'])[1]</value>
+</keyword>
+
+<keyword id = "clickShowContactDetail">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='showContactDetails']</value>
+</keyword>
+
+<keyword id = "UILP_similarDEB">
+	<identifier>xpath</identifier>
+	<value>(.//li[@ga-attr='SIMILAR_RECO_LISTING'])[1]//a[2]</value>
+</keyword>
+
+<keyword id = "rank_By">
+	<identifier>xpath</identifier>
+	<value>.//label[contains(text(),'Ranked By')]</value>
+</keyword>
+
+<keyword id = "rankingPageShortlist">
+	<identifier>xpath</identifier>
+	<value>(.//a[@cta-type='shortlist'])[2]</value>
+</keyword>
+
+<keyword id = "rankingPageDEB">
+	<identifier>xpath</identifier>
+	<value>(.//div[@id='rankingPageTable']//a[@cta-type='download_brochure'])[2]</value>
+</keyword>
+
+<keyword id = "CLP_DEB">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='CTASection']/a[2]</value>
+</keyword>
+
+<keyword id = "CLP_Shortlist">
+	<identifier>xpath</identifier>
+	<value>.//div//a[@ga-track='SHORTLIST_COURSEDETAIL_DESKTOP']</value>
+</keyword>
+
+<keyword id = "scrollToSCD_CLP">
+	<identifier>xpath</identifier>
+	<value>(.//li//a[@ga-track='CONTACT_NAVIGATION_COURSEDETAIL_DESKTOP'])[2]</value>
+</keyword>
+
+<keyword id = "SCD_CLP">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='showContactDetails']</value>
+</keyword>
+
+<keyword id = "scrollStudentView">
+	<identifier>xpath</identifier>
+	<value>.//h2[contains(text(),'Students who viewed this course also viewed the following courses')]</value>
+</keyword>
+
+<keyword id = "CLP_DEB_AlsoViewed">
+	<identifier>xpath</identifier>
+	<value>(.//a[@class='btn-primary btn-pm brchre-btn'])[1]</value>
+</keyword>
+
+<keyword id = "shikshaLogo">
+	<identifier>xpath</identifier>
+	<value>.//body[@id='wrapperMainForCompleteShiksha']//i[@class='icons ic_logo']</value>
+</keyword>
+
+<keyword id = "loginBtn">
+	<identifier>xpath</identifier>
+	<value>.//div[@id='_globalNav']//a[@action='login']</value>
+</keyword>
+
+<keyword id = "rankedBy">
+	<identifier>xpath</identifier>
+	<value>.//label[contains(text(),'Ranked By')]</value>
+</keyword>
+
+<keyword id = "tplDetails">
+	<identifier>xpath</identifier>
+	<value>(.//section[@class='tpl-curse-dtls'])[1]</value>
+</keyword>
+
+<keyword id = "CTP_DEB">
+	<identifier>xpath</identifier>
+	<value>(.//span[@product='Category'])[1]</value>
+</keyword>
+
+<keyword id = "tupleDetails">
+	<identifier>xpath</identifier>
+	<value>(.//section[@class='tpl-curse-dtls'])[1]</value>
+</keyword>
+
+<keyword id = "CTP_Shortlist">
+	<identifier>xpath</identifier>
+	<value>(.//a[@product='Category']/span)[1]</value>
+</keyword>
+
+<keyword id = "DEB_ILP_ReviewPage">
+	<identifier>xpath</identifier>
+	<value>(.//div//a[@cta-type='download_brochure'])[2]</value>
+</keyword>
+
+<keyword id = "Shortlist_ILP_ReviewPage">
+	<identifier>xpath</identifier>
+	<value>.//div//a[@cta-type='shortlist']</value>
+</keyword>
+
+<keyword id = "courseLayer">
+	<identifier>xpath</identifier>
+	<value>//.//div[@id='courselayer']//span[contains(text(),'Select Course')]</value>
+</keyword>
+
+
+<keyword id = "cList">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='clist']/span[1]</value>
+</keyword>
+
+
+<keyword id = "courseList">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='courselayer']//div[@id='courseScrollDiv']//li[a]</value>
+</keyword>
+
+<keyword id = "clickCourseLayer">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='courselayer']//div[@class='algn-rt']//input[@value='Submit']</value>
+</keyword>
+
+<keyword id = "userNameIcon">
+	<identifier>xpath</identifier>
+	<value>.//span//a[@class='n-username']</value>
+</keyword>
+
+<keyword id = "logOutBtn">
+	<identifier>xpath</identifier>
+	<value>.//div//a[@action='logout']</value>
+</keyword>
+
+<keyword id = "loginBttn">
+	<identifier>xpath</identifier>
+	<value>.//div//a[@action='login']</value>
+</keyword>
+
+<keyword id = "studentWhoShowedInterest">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Students who showed interest')]</value>
+</keyword>
+
+<keyword id = "contactDetailToastMsg">
+	<identifier>xpath</identifier>
+	<value>.//div//p[@id='toastMsg'][contains(text(),'Contact details have also been mailed to you.')]</value>
+</keyword>
+
+<keyword id = "debDisableCutOffPage">
+	<identifier>xpath</identifier>
+	<value>.//a[contains(@class,'disable')]</value>
+</keyword>
+
+<keyword id = "shortlistedCutOffPage">
+	<identifier>xpath</identifier>
+	<value>.//a[contains(@class,'shortlisted')]</value>
+</keyword>
+
+<keyword id = "comparePageDEBDone">
+	<identifier>xpath</identifier>
+	<value>.//p[@class='eb-sent']</value>
+</keyword>
+
+<keyword id = "comparePageShortlistDone">
+	<identifier>xpath</identifier>
+	<value>.//span[contains(text(),'Shortlisted')]</value>
+</keyword>
+
+<keyword id = "questionVerify">
+	<identifier>xpath</identifier>
+	<value>.//h1[contains(text(),'Which one is good')]</value>
+</keyword>
+
+<keyword id = "shortlstTxt">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Interested in')]/..//a[contains(text(),'Shortlisted')]</value>
+</keyword>
+
+<keyword id = "scrollToContactDetailss">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='contact']/h2</value>
+</keyword>
+
+<keyword id = "acp_deb_top" >
+	<identifier>xpath</identifier>
+	<value>.//div[@class='all-courses-head']//*[contains(text(),'Download')]</value>
+</keyword>
+
+
+<keyword id = "acp_deb_First">
+	<identifier>xpath</identifier>
+	<value>(.//span[@product='AllCoursesPage'])[1]</value>
+</keyword>
+
+<keyword id = "acp_shortlist_first">
+	<identifier>xpath</identifier>
+	<value>(.//span[contains(text(),'Shortlist')])[1]</value>
+</keyword>
+
+<keyword id = "ulp_deb_top">
+	<identifier>xpath</identifier>
+	<value>.//div[@class='all-courses-head']//*[contains(text(),'Download')]</value>
+</keyword>
+
+<keyword id = "ulp_deb_first">
+	<identifier>xpath</identifier>
+	<value>(.//span[@product='AllCoursesPage'])[1]</value>
+</keyword>
+
+<keyword id = "ulp_shortlist">
+	<identifier>xpath</identifier>
+	<value>(.//span[contains(text(),'Shortlist')])[1]</value>
+</keyword>
+
+<keyword id = "CP_LaunchPage_DEB">
+	<identifier>xpath</identifier>
+	<value>(.//a[@cta-type='download_brochure'])[1]</value>
+</keyword>
+
+<keyword id = "CP_LaunchPage_Shortlist">
+	<identifier>xpath</identifier>
+	<value>(.//*[contains(@id,'shortlist')])[1]</value>
+</keyword>
+
+<keyword id = "ulp_CutOffPage_DEB">
+	<identifier>xpath</identifier>
+	<value>(.//a[contains(text(),'Download Brochure')])[1]</value>
+</keyword>
+
+<keyword id = "ulp_CutoffPage_Shortlist">
+	<identifier>xpath</identifier>
+	<value>(.//a[contains(@id,'shortlist')])[1]</value>
+</keyword>
+
+<keyword id = "ilp_admissionPage_ShortlistBellyButton">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Interested in')]/..//a[contains(text(),'Shortlist')]</value>
+</keyword>
+
+<keyword id = "SRP_Shortlist">
+	<identifier>xpath</identifier>
+	<value>(.//span[contains(@class,'deb-site-tour')])[1]</value>
+</keyword>
+
+<keyword id = "ComparePage_DEB">
+	<identifier>xpath</identifier>
+	<value>(.//a[@value='Download E-brochure'])[1]</value>
+</keyword>
+
+<keyword id = "ComparePage_Shortlist">
+	<identifier>xpath</identifier>
+	<value>(.//span[contains(text(),'Shortlist')])[1]</value>
+</keyword>
+
+<keyword id = "ComparePage_AskNow">
+	<identifier>xpath</identifier>
+	<value>(.//a[@value='Ask Now'])[1]</value>
+</keyword>
+
+<keyword id = "Compare_Page_AskNow_SendKeys">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='qstn-input']</value>
+</keyword>
+
+<keyword id = "ComparePage_QuestionPost">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='nextButtonPosting']</value>
+</keyword>
+
+<keyword id = "Compare_Page_FinalQuestionPost">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='finalButtonPosting']</value>
+</keyword>
+
+<keyword id = "scroll_GetDetails">
+	<identifier>xpath</identifier>
+	<value>.//strong[contains(text(),'Get Details on Cours')]</value>
+</keyword>
+
+<keyword id = "ilp_GetCourseDetails_DEB">
+	<identifier>xpath</identifier>
+	<value>.//a[@ga-attr='DBROCHURE_CTA_WIDGET']</value>
+</keyword>
+
+<keyword id = "ilp_GetCourseDetails_Shortlist">
+	<identifier>xpath</identifier>
+	<value>.//a[@class='shrt-list']</value>
+</keyword>
+
+<keyword id = "ulp_GetCourseDetails_DEB">
+	<identifier>xpath</identifier>
+	<value>.//a[@ga-attr='DBROCHURE_CTA_WIDGET']</value>
+</keyword>
+
+<keyword id = "ulp_GetCourseDetails_Shortlist">
+	<identifier>xpath</identifier>
+	<value>.//a[@class='shrt-list']</value>
+</keyword>
+
+
+<keyword id = "clp_GetCourseDetails_DEB">
+	<identifier>xpath</identifier>
+	<value>.//a[@ga-track='DEB_CTA_WIDGET_COURSEDETAIL_DESKTOP']</value>
+</keyword>
+
+<keyword id = "clp_GetCourseDetails_Shortlist">
+	<identifier>xpath</identifier>
+	<value>.//a[@ga-track='SHORTLIST_CTA_WIDGET_COURSEDETAIL_DESKTOP']</value>
+</keyword>
+
+<keyword id = "ulp_CutOffPage_Scroll">
+	<identifier>xpath</identifier>
+	<value>.//h2[contains(text(),'Cut-off')]</value>
+</keyword>
+
+<keyword id = "ilp_admissionPage_ShortlistBelly_Scroll">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Interested in')]/..//a[contains(text(),'Shortlist')]</value>
+</keyword>
+
+<keyword id = "SearchCollege_TextBox">
+	<identifier>xpath</identifier>
+	<value>.//*[@id='searchby-college']</value>
+</keyword>
+
+<keyword id = "SearchPage_Scroll1">
+	<identifier>xpath</identifier>
+	<value>(.//span[contains(@class,'deb-site-tour')])[1]</value>
+</keyword>
+
+<keyword id = "ComparePage_ShortlistScroll">
+	<identifier>xpath</identifier>
+	<value>(.//span[contains(text(),'Shortlist')])[1]</value>
+</keyword>
+
+
+<keyword id = "ComparePage_AskNowScroll">
+	<identifier>xpath</identifier>
+	<value>(.//a[@value='Ask Now'])[1]</value>
+</keyword>
+
+<keyword id = "ulp_GetCourseDetialsWidget_DEB">
+	<identifier>xpath</identifier>
+	<value>.//a[@ga-attr='DBROCHURE_CTA_WIDGET']</value>
+</keyword>
+
+<keyword id = "CollegePredictor_LaunchPage_Scroll1">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Branch')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_City_Xpath1">
+	<identifier>xpath</identifier>
+	<value>.//div[@label='City']//div[starts-with(text(),'City you want')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_City_Xpath2">
+	<identifier>xpath</identifier>
+	<value>.//div[@regfieldid='prefCity']//div[@class='multiinput']</value>
+</keyword>
+
+<keyword id = "ResponseForm_City_Xpath3">
+	<identifier>xpath</identifier>
+	<value>.//div[@class='ctmScroll']//li//span</value>
+</keyword>
+
+<keyword id = "ResponseForm_NearestCenter_Xpath1">
+	<identifier>xpath</identifier>
+	<value>.//div[@label='Center']//div[2]</value>
+</keyword>
+
+<keyword id = "ResponseForm_NearestCenter_Xpath2">
+	<identifier>xpath</identifier>
+	<value>.//div[@label='Center']//div[2]</value>
+</keyword>
+
+<keyword id = "ResponseForm_NearestCenter_Xpath3">
+	<identifier>xpath</identifier>
+	<value>.//div[@class='ctmScroll']//li//span</value>
+</keyword>
+
+<keyword id = "ResponseForm_CourseDropDown_Xpath1">
+	<identifier>xpath</identifier>
+	<value>//div[@regfieldid='clientCourse']</value>
+</keyword>
+
+<keyword id = "ResponseForm_CourseDropDown_Xpath3">
+	<identifier>xpath</identifier>
+	<value>.//div[@regfieldid='clientCourse']</value>
+</keyword>
+
+<keyword id = "ResponseForm_CourseDropDown_Xpath4">
+	<identifier>xpath</identifier>
+	<value>.//ul[@class='staCty-Sblyr']//li//span</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExperienceField_Xpath1">
+	<identifier>xpath</identifier>
+	<value>.//div[@regfieldid='workExp']/div[2]</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExperienceField_Xpath2">
+	<identifier>xpath</identifier>
+	<value>.//div[@regfieldid='workExp']/div[2]</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExperienceField_Xpath3">
+	<identifier>xpath</identifier>
+	<value>.//ul[@class='staCty-lyr strm-lyr']/li</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExamTaken_Xpath1">
+	<identifier>xpath</identifier>
+	<value>.//div[@class='lyr-sblst ctmScroll']//ul//li//label</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExamTaken_Xpath2">
+	<identifier>xpath</identifier>
+	<value>.//div[@regfieldid='exams']</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExamTaken_Xpath3">
+	<identifier>xpath</identifier>
+	<value>.//div[@regfieldid='exams']</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExamTaken_Xpath4">
+	<identifier>xpath</identifier>
+	<value>.//div[@class='lyr-sblst ctmScroll']//ul//li//label</value>
+</keyword>
+
+<keyword id = "ResponseForm_ExamTaken_Xpath5">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Select one or more')]/..//*[contains(text(),'Done')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_Email">
+	<identifier>xpath</identifier>
+	<value>.//input[@name='email']</value>
+</keyword>
+
+<keyword id = "ResponseForm_Password">
+	<identifier>xpath</identifier>
+	<value>.//input[@type='Password']</value>
+</keyword>
+
+<keyword id = "ResponseForm_FirstName">
+	<identifier>xpath</identifier>
+	<value>.//input[@name='firstName']</value>
+</keyword>
+
+<keyword id = "ResponseForm_LastName">
+	<identifier>xpath</identifier>
+	<value>.//input[@name='lastName']</value>
+</keyword>
+
+<keyword id = "ResponseForm_Mobile">
+	<identifier>xpath</identifier>
+	<value>.//input[@name='mobile']</value>
+</keyword>
+
+<keyword id = "ResponseForm_Submit_Xpath1">
+	<identifier>xpath</identifier>
+	<value>.//div[@id='signUpForm']//*[contains(text(),'Download Brochure')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_Submit_Xpath2">
+	<identifier>xpath</identifier>
+	<value>.//div[@id='signUpForm']//*[contains(text(),'Download Brochure')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_Submit_Xpath3">
+	<identifier>xpath</identifier>
+	<value>.//span[contains(text(),'Sign Up')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_Submit_Xpath4">
+	<identifier>xpath</identifier>
+	<value>.//span[contains(text(),'Sign Up')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_Submit_Xpath5">
+	<identifier>xpath</identifier>
+	<value>.//form//a[contains(text(),'View Contact Details')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_Submit_Xpath6">
+	<identifier>xpath</identifier>
+	<value>.//div[@id='signUpForm']//a[@class='reg-btn sup-btn stp2 resp-btn']</value>
+</keyword>
+
+<keyword id = "ResponseForm_Submit_Xpath7">
+	<identifier>xpath</identifier>
+	<value>.//div[@id='signUpForm']//*[contains(text(),'Download Brochure')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_RecoLayer_getText1">
+	<identifier>xpath</identifier>
+	<value>.//div//*[contains(text(),'Download Successful')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_RecoLayer_getText2">
+	<identifier>xpath</identifier>
+	<value>.//div[@class='db-sucess']/h1[contains(text(),'Shortlist Successful')]</value>
+</keyword>
+
+<keyword id = "ResponseForm_recoLayer_ShortlistClick">
+	<identifier>xpath</identifier>
+	<value>(.//*[contains(text(),'Students who showed interest in this course also looked for')]/../..//*[contains(@class,'tpl-curse-dtls')]//*[contains(text(),'Shortlist')])[1]</value>
+</keyword>
+
+<keyword id = "ResponseForm_recoLayer_ShortlistClick2">
+	<identifier>xpath</identifier>
+	<value>(.//*[contains(text(),'Students who showed interest in this course also looked for')]/../..//*[contains(@class,'tpl-curse-dtls')]//*[contains(text(),'Shortlisted')])[1]</value>
+</keyword>
+
+<keyword id = "ResponseForm_recoLayer_ResponseClick1">
+	<identifier>xpath</identifier>
+	<value>(.//section[@class='tuple-bottom']//span[contains(text(),'Download')])[31]</value>
+</keyword>
+
+<keyword id = "ResponseForm_recoLayer_ResponseClick2">
+	<identifier>xpath</identifier>
+	<value>(.//div[@class='clg-tpl'])[31]</value>
+</keyword>
+
+<keyword id = "ResponseForm_recoLayer_ResponseClick3">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Brochure successfully mailed')]</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_recoLayer_ResponseClick4">
+	<identifier>xpath</identifier>
+	<value>(.//span[contains(text(),'Download Brochure')])[1]</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_recoLayer_ResponseClick5">
+	<identifier>xpath</identifier>
+	<value>(.//p[@class='success-msg'][contains(text(),'Brochure successfully mailed')])[1]</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_RecoLayer_CompareClick1">
+	<identifier>xpath</identifier>
+	<value>(.//*[contains(text(),'Students who showed interest in this course also looked for')]/../..//*[contains(@class,'tpl-curse-dtls')]//label)[1]</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_RecoLayer_CompareClick2">
+	<identifier>xpath</identifier>
+	<value>(.//*[contains(text(),'Students who showed interest in this course also looked for')]/../..//*[contains(@class,'tpl-curse-dtls')]//label)[1][contains(text(),'Added')]</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_recoLayer_Close1">
+	<identifier>xpath</identifier>
+	<value>.//*//a[@class='regClose']</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_recoLayer_Close2">
+	<identifier>xpath</identifier>
+	<value>.//div//div[@class='added-clgs _ldr']</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_recoLayer_Close3">
+	<identifier>xpath</identifier>
+	<value>.//a[@class='show-hide-btn _cmpTgleBtn']</value>
+</keyword>
+
+
+<keyword id = "ResponseForm_recoLayer_Close4">
+	<identifier>xpath</identifier>
+	<value>.//div[@class='added-clgs _ldr']</value>
+</keyword>
+
+<keyword id = "ResponseForm_recoLayer_Close5">
+	<identifier>xpath</identifier>
+	<value>.//div//a[contains(text(),'Remove All')]</value>
+</keyword>
+
+<keyword id = "categoryPage_more_1">
+	<identifier>xpath</identifier>
+	<value>(.//a[contains(text(),'More  course')])[1]/../..</value>
+</keyword>
+
+<keyword id = "categoryPage_more_2">
+	<identifier>xpath</identifier>
+	<value>(.//a[contains(text(),'More  course')])[1]/..</value>
+</keyword>
+
+<keyword id = "categoryPage_more_3">
+	<identifier>xpath</identifier>
+	<value>(.//a[contains(text(),'More  course')])[1]</value>
+</keyword>
+
+
+<keyword id = "userState">
+	<identifier>xpath</identifier>
+	<value>.//body[@id='wrapperMainForCompleteShiksha']//i[@class='icons ic_logo']</value>
+</keyword>
+
+
+<keyword id = "responseFormIdentificationKey">
+	<identifier>xpath</identifier>
+	<value>.//*[@class='regLft-col']//i</value>
+</keyword>
+
+
+<keyword id = "cityDropDown">
+	<identifier>xpath</identifier>
+	<value>.//div[@regfieldid='residenceCityLocality']</value>
+</keyword>
+
+<mykeyword id = "cityDropDownKey">
+	<identifier>xpath</identifier>
+	<value>.//p[contains(text(),'Select one')]</value>
+</mykeyword>
+
+<keyword id = "ResponseForm_ExamTakenVisibleKey">
+	<identifier>xpath</identifier>
+	<value>.//div[contains(text(),'Exams ')]</value>
+</keyword>
+
+</CTA_Desktop>
+<Call_Predictor>
+<keyword id = "call_catrgory_drop">
+<identifier>id</identifier>
+<value>userCategoryholder</value>
+</keyword>
+<keyword id = "IIM_Start_Again">
+<identifier>xpath</identifier>
+<value>(.//*[@id='pageMainContainerId']//span[@class='start-again-link'])[1]</value>
+</keyword>
+<keyword id = "IIM_10">
+<identifier>id</identifier>
+<value>xthboardholder</value>
+</keyword>
+<keyword id = "IIM_10_1">
+<identifier>id</identifier>
+<value>predictor_xthboard_CBSE</value>
+</keyword>
+<keyword id = "IIM_10_2">
+<identifier>id</identifier>
+<value>predictor_xthPercentage</value>
+</keyword>
+<keyword id = "IIM_12_board">
+<identifier>id</identifier>
+<value>xiithboardholder</value>
+</keyword>
+<keyword id = "IIM_12_board_2">
+<identifier>id</identifier>
+<value>predictor_xiithboard_CBSE</value>
+</keyword>
+<keyword id = "IIM_12_Stream">
+<identifier>id</identifier>
+<value>xiithstreamholder</value>
+</keyword>
+<keyword id = "IIM_12_Stream_2">
+<identifier>id</identifier>
+<value>predictor_xiithstream_Arts</value>
+</keyword>
+<keyword id = "IIM_12_Marks">
+<identifier>id</identifier>
+<value>predictor_xiithPercentage</value>
+</keyword>
+<keyword id = "IIM_Post_board">
+<identifier>id</identifier>
+<value>gradstreamholder</value>
+</keyword>
+<keyword id = "IIM_Post_board_2">
+<identifier>id</identifier>
+<value>predictor_gradstream_ActuarialScience</value>
+</keyword>
+<keyword id = "IIM_Post_Year">
+<identifier>id</identifier>
+<value>gradYearholder</value>
+</keyword>
+<keyword id = "IIM_Post_Year_2">
+<identifier>id</identifier>
+<value>predictor_gradYear_2025</value>
+</keyword>
+<keyword id = "IIM_Post_Marks">
+<identifier>id</identifier>
+<value>predictor_gradPercentage</value>
+</keyword>
+<keyword id = "IIM_Step_2_Button">
+<identifier>id</identifier>
+<value>step2Button</value>
+</keyword>
+<keyword id = "IIM_Banner">
+<identifier>xpath</identifier>
+<value>.//*[@id='pageMainContainerId']//p[@class='bnr-hd']</value>
+</keyword>
+<keyword id = "IIM_Banner_Frame">
+<identifier>xpath</identifier>
+<value>html/body/table/tbody/tr/td[1]/a/img</value>
+</keyword>
+<keyword id = "IIM_CAT_Score">
+<identifier>id</identifier>
+<value>dispayCATSCoreStep</value>
+</keyword>
+<keyword id = "IIM_Eligibility">
+<identifier>id</identifier>
+<value>skipToInterim</value>
+</keyword>
+<keyword id = "IIM_VRC">
+<identifier>id</identifier>
+<value>VRC_Percentile</value>
+</keyword>
+<keyword id = "IIM_DILR">
+<identifier>id</identifier>
+<value>DILR_Percentile</value>
+</keyword>
+<keyword id = "IIM_QA">
+<identifier>id</identifier>
+<value>QA_Percentile</value>
+</keyword>
+<keyword id = "IIM_TOT">
+<identifier>id</identifier>
+<value>cat_total</value>
+</keyword>
+<keyword id = "IIM_TOTAL">
+<identifier>id</identifier>
+<value>cat_percentile</value>
+</keyword>
+<keyword id = "IIM_CAT_Predict">
+<identifier>id</identifier>
+<value>catScoreStepSubmit</value>
+</keyword>
+<keyword id = "IIM_Eligible">
+<identifier>xpath</identifier>
+<value>.//*[@id='pageMainContainerId']/div/div/section/div[1]/p</value>
+</keyword>
+<keyword id = "IIM_compare">
+<identifier>xpath</identifier>
+<value>//div[@class='section']//a[contains(@id,'compare')]</value>
+</keyword>
+<keyword id = "IIM_Not_Eligible">
+<identifier>xpath</identifier>
+<value>.//*[@id='sorryMessage']/p[1]</value>
+</keyword>
+<keyword id = "IIM_Not_Eligible_Cut">
+<identifier>xpath</identifier>
+<value>.//*[@id='sorryMessage']/p[1]</value>
+</keyword>
+<keyword id = "IIM_Eligible_Result">
+<identifier>xpath</identifier>
+<value>.//*[@id='congrtsMessage']/p[1]</value>
+</keyword>
+<keyword id = "IIM_Click_Cut_Off">
+<identifier>id</identifier>
+<value>check-cut-off</value>
+</keyword>
+<keyword id = "IIM_Change_Here">
+<identifier>xpath</identifier>
+<value>(.//*[@id='pageMainContainerId']//span[@class='start-again-link'])[2]</value>
+</keyword>
+<keyword id = "call_catrgory_general">
+<identifier>id</identifier>
+<value>predictor_userCategory_General</value>
+</keyword>
+<keyword id = "IIM_Step_1_Button">
+<identifier>id</identifier>
+<value>step1Button</value>
+</keyword>
+</Call_Predictor>
+
+<CTP>
+<keyword id="CLP_Selected_Filter">
+<identifier>xpath</identifier>
+<value>//div[@class='slctd-fltrtags ']</value>
+</keyword>
+<keyword id="CLP_Filter">
+<identifier>xpath</identifier>
+<value>//ul[@class='menu']/li[txtid]</value>
+</keyword>
+<keyword id="Shiksha_Logo">
+<identifier>xpath</identifier>
+<value>//a[@title='Shiksha.com']</value>
+</keyword>
+<keyword id="CLP_Filter_Count">
+<identifier>xpath</identifier>
+<value>//div[@class='container pL0 pLR0']//span[@class='count-col']</value>
+</keyword>
+<keyword id="Search_Filter_Count">
+<identifier>xpath</identifier>
+<value>//h1[@class='searchHead']//span</value>
+</keyword>
+</CTP>
+<GNB>
+<keyword id="GNB_L1">
+<identifier>xpath</identifier>
+<value>//a[@lang='txtid']</value>
+</keyword>
+<keyword id="GNB_Location_Close">
+<identifier>xpath</identifier>
+<value>//div[@class='locat_clos']//a</value>
+</keyword>
+<keyword id="GNB_Location">
+<identifier>xpath</identifier>
+<value>//div[@class='locality-srch-layer allind-lyr']</value>
+</keyword>
+<keyword id="GNB_L2">
+<identifier>xpath</identifier>
+<value>//li[contains(@class,'g_lev1') and contains(@class,'active')]//ul[@class='g_lev2']//a[text()='txtid']</value>
+</keyword>
+<keyword id="GNB_More_Btn">
+<identifier>xpath</identifier>
+<value>(//i[@class='go-dwn'])[5]</value>
+</keyword>
+<keyword id="GNB_Active_list">
+<identifier>xpath</identifier>
+<value>//li[@class='activee']</value>
+</keyword>
+<keyword id="GNB_L3">
+<identifier>xpath</identifier>
+<value>//li[contains(@class,'g_lev1') and contains(@class,'active')]//li[@class='activee']//li//a[text()='txtid']</value>
+</keyword>
+<keyword id="GNB_Footer">
+<identifier>xpath</identifier>
+<value>//div[@class='n-tradeMarkFotr']</value>
+</keyword>
+</GNB>
+<CTA>
+<keyword id = "clickloginText_Mobile">
+<identifier>xpath</identifier>
+<value>.//p[@class='newSks lgn2 loginScreen']</value>
+</keyword>
+<keyword id = "applylogin">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'firstLayer')]//p)[2]</value>
+</keyword>
+<keyword id = "pre_stream">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'stream_input')]</value>
+</keyword>
+<keyword id = "pre_next">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'firstLayer')]/a</value>
+</keyword>
+<keyword id = "pre_stream_1">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'custmSlt')]//span)[1]</value>
+</keyword>
+<keyword id = "pre_course">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'Courses_block')]/div[2]</value>
+</keyword>
+<keyword id = "pre_course_spcl_1">
+<identifier>xpath</identifier>
+<value>(.//*[@id='custom-slct2']//label)[1]</value>
+</keyword>
+<keyword id = "pre_done">
+<identifier>xpath</identifier>
+<value>.//*[@id='saveMultiSelect']</value>
+</keyword>
+<keyword id = "pre_spcl">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'Specializations_block')]/div[2]</value>
+</keyword>
+<keyword id = "pre_edumode">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'educationType_block')]/div[2]</value>
+</keyword>
+<keyword id = "clientcourse_deb">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'clientCourse_input')]</value>
+</keyword>
+<keyword id = "clientcourse_deb_1">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'clientCourse')]/span)[1]</value>
+</keyword>
+<keyword id = "login_woekExp">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'workExp_input')]</value>
+</keyword>
+<keyword id = "login_woekExp_2">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'workExp')]/span)[1]</value>
+</keyword>
+<keyword id = "login_locality">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'residenceLocality_input')]</value>
+</keyword>
+<keyword id = "login_prefcity">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'prefCity_input')]</value>
+</keyword>
+<keyword id = "login_prefcity_2">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'prefCity')]/span)[1]</value>
+</keyword>
+<keyword id = "login_locality_2">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'residenceLocality')]/span)[1]</value>
+</keyword>
+<keyword id = "clientcourse_deb_2">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'secondLayer')]/div[2]/a</value>
+</keyword>
+<keyword id = "selecttopCourse">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'customCourseSelect_input_downloadBrochure')])[1]</value>
+</keyword>
+<keyword id = "lcationlayerforcta">
+<identifier>xpath</identifier>
+<value>(.//*[@class='drpdwn-ul']/li//label)[1]</value>
+</keyword>
+<keyword id = "SwipeToStickyCTA">
+<identifier>xpath</identifier>
+<value>.//*[@id='tab-section']//ul/li[2]/a</value>
+</keyword>
+<keyword id = "headings_cta">
+<identifier>xpath</identifier>
+<value>.//*[@id='recommendations']//h3</value>
+</keyword>
+<keyword id = "downloadonCTA">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'brchr')])[1]</value>
+</keyword>
+<keyword id = "compareonCTA">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'compare')]//span</value>
+</keyword>
+<keyword id = "comparebtnonCTA">
+<identifier>xpath</identifier>
+<value>.//*[@id='proceedButton-cmp']</value>
+</keyword>
+<keyword id = "shotlistonCTA">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'shrt')])[1]</value>
+</keyword>
+<keyword id = "cookie_Ok">
+<identifier>xpath</identifier>
+<value>.//*[@id='cookiebanner']//a[@class='cookAgr-btn']</value>
+</keyword>
+<keyword id = "cookie_Ok_Desktop">
+<identifier>xpath</identifier>
+<value>.//*[@class='cokkie-lyr']//button</value>
+</keyword>
+<keyword id = "headings_cta_compare">
+<identifier>xpath</identifier>
+<value>.//*[@id='no-collge-to-compare-msg']/h1</value>
+</keyword>
+<keyword id = "headings_cta_apply">
+<identifier>xpath</identifier>
+<value>.//*[text()='You have successfully started your application. We have sent you an email with the link to your application. Open that link on the desktop/laptop for an easy and smooth process to complete your submission.']</value>
+</keyword>
+<keyword id = "heading_Exam_page">
+<identifier>xpath</identifier>
+<value>.//*[@id='success-msg']</value>
+</keyword>
+<keyword id = "signupemail">
+<identifier>xpath</identifier>
+<value>.//*[@caption='your Email address']</value>
+</keyword>
+<keyword id = "signuppass">
+<identifier>xpath</identifier>
+<value>.//*[@caption='Password']</value>
+</keyword>
+<keyword id = "signupFName">
+<identifier>xpath</identifier>
+<value>.//*[@label='first name']</value>
+</keyword>
+<keyword id = "signupLName">
+<identifier>xpath</identifier>
+<value>.//*[@label='last name']</value>
+</keyword>
+<keyword id = "signupworkex">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'workExp_input')]</value>
+</keyword>
+<keyword id = "signupworkexdrop">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'workExp')]/span)[1]</value>
+</keyword>
+<keyword id = "signupexam">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'exams_block')]/div[2]</value>
+</keyword>
+<keyword id = "signupexamdrop">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@for,'exams')])[1]</value>
+</keyword>
+<keyword id = "signupexamselect">
+<identifier>id</identifier>
+<value>saveMultiSelect</value>
+</keyword>
+<keyword id = "signuplocality">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'prefCity_input')]</value>
+</keyword>
+<keyword id = "signuplocalitydrop">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'prefCity')]/span)[1]</value>
+</keyword>
+<keyword id = "signuplocality1">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'prefLocality_input')]</value>
+</keyword>
+<keyword id = "signuplocalitydrop1">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'prefLocality')]/span)[1]</value>
+</keyword>
+<keyword id = "signupmobile">
+<identifier>xpath</identifier>
+<value>.//*[@label='Mobile']</value>
+</keyword>
+<keyword id = "signuplocation">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'residenceCityLocality') and @class = 'multiinput']</value>
+</keyword>
+<keyword id = "signuplocation_2">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'residenceCityLocality')]/span</value>
+</keyword>
+<keyword id = "signupbutton">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'secondLayer')]//a/span</value>
+</keyword>
+<keyword id = "signupbutton_2">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'secondLayer')]//a</value>
+</keyword>
+</CTA>
+<AnADesktop>
+<keyword id = "registrationWidgetSignup">
+<identifier>xpath</identifier>
+<value>.//*[@id='rightStickyWidgetQDP']/div[1]/a</value>
+</keyword>
+<keyword id = "agree1">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'agreeterms')]/label</value>
+</keyword>
+<keyword id = "agree2">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'serviceterms')]/label</value>
+</keyword>
+<keyword id = "signUp_Tag">
+<identifier>xpath</identifier>
+<value>.//*[@id='qnaRegstr']</value>
+</keyword>
+<keyword id = "Pagi_Tag">
+<identifier>xpath</identifier>
+<value>(.//*[@class='pagniatn-ul']/li)[2]</value>
+</keyword>
+<keyword id = "AllTag_Search">
+<identifier>id</identifier>
+<value>tagSearch</value>
+</keyword>
+<keyword id = "AllTag_CAT">
+<identifier>xpath</identifier>
+<value>.//*[@id='tagSearch_container']/li[1]/span</value>
+</keyword>
+<keyword id = "AllTag_CAT_1">
+<identifier>xpath</identifier>
+<value>.//*[@class='tag-p']</value>
+</keyword>
+<keyword id = "Related_Tag">
+<identifier>xpath</identifier>
+<value>.//*[@class='addTranstnEfct']/li//p</value>
+</keyword>
+<keyword id = "contributot_Tag">
+<identifier>xpath</identifier>
+<value>.//*[@id='rightWidgetList']/li[1]/div/div[1]/a</value>
+</keyword>
+<keyword id = "regisStream">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'stream_input')]</value>
+</keyword>
+<keyword id = "regisStream_1">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'stream')]/span)[1]</value>
+</keyword>
+<keyword id = "bc">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'baseCourses_block')]</value>
+</keyword>
+<keyword id = "bc_2">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'baseCourseField')]//label)[1]</value>
+</keyword>
+<keyword id = "et">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'educationType_block')]</value>
+</keyword>
+<keyword id = "et_2">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'eduTypeField')]//label)[1]</value>
+</keyword>
+<keyword id = "1_next">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'firstLayer')]/a</value>
+</keyword>
+<keyword id = "reg_email">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'email')]/input</value>
+</keyword>
+<keyword id = "reg_pass">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'password')]/input</value>
+</keyword>
+<keyword id = "reg_Fname">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'firstName')]/input</value>
+</keyword>
+<keyword id = "reg_lname">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'lastName')]/input</value>
+</keyword>
+<keyword id = "reg_mobile">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'mobile')]/input</value>
+</keyword>
+<keyword id = "reg_locality">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'residenceCityLocality_input_')]</value>
+</keyword>
+<keyword id = "reg_locality_2">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'residenceCityLocality')]/span)[1]</value>
+</keyword>
+<keyword id = "final_reg">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'secondLayer')]/div[2]/a</value>
+</keyword>
+<keyword id = "rhsLinks">
+<identifier>xpath</identifier>
+<value>.//*[@id='rightStickyWidget']/div[2]//a</value>
+</keyword>
+<keyword id = "latestArticle">
+<identifier>xpath</identifier>
+<value>(.//*[@class='art-caraousal']//li)[1]//p</value>
+</keyword>
+<keyword id = "collegexp">
+<identifier>xpath</identifier>
+<value>.//*[@id='aw0']//img</value>
+</keyword>
+<keyword id = "expertpannel">
+<identifier>xpath</identifier>
+<value>.//*[@id='rightStickyWidgetQDP']/div[1]/a</value>
+</keyword>
+<keyword id = "loginInRHS">
+<identifier>xpath</identifier>
+<value>.//*[@id='regRgtabs']//descendant::a[@class='loginScreen']</value>
+</keyword>
+<keyword id = "usernameAnA">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'email')and @class = 'ngInput']</value>
+</keyword>
+<keyword id = "passwordAnA">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'password')and @class = 'ngInput psd']</value>
+</keyword>
+<keyword id = "LoginAnA">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'loginSubmit')]</value>
+</keyword>
+<keyword id = "CheckforSuccessfulLogin">
+<identifier>xpath</identifier>
+<value>.//a[@class='n-username']</value>
+</keyword>
+<keyword id = "QnAInputBox">
+<identifier>id</identifier>
+<value>qstn-input</value>
+</keyword>
+<keyword id = "QnADetails">
+<identifier>id</identifier>
+<value>lnk-add-more</value>
+</keyword>
+<keyword id = "QnADescription">
+<identifier>id</identifier>
+<value>more-input-posting</value>
+</keyword>
+<keyword id = "nextButton">
+<identifier>id</identifier>
+<value>nextButtonPosting</value>
+</keyword>
+<keyword id = "addmoretags">
+<identifier>id</identifier>
+<value>add-more-tag</value>
+</keyword>
+<keyword id = "tagsearch">
+<identifier>id</identifier>
+<value>tagSearch</value>
+</keyword>
+<keyword id = "search">
+<identifier>xpath</identifier>
+<value>.//*[@id='tagSearch_container']/li[1]/span/strong</value>
+</keyword>
+<keyword id = "doneqna">
+<identifier>id</identifier>
+<value>done-add-tags</value>
+</keyword>
+<keyword id = "postQnA">
+<identifier>id</identifier>
+<value>finalButtonPosting</value>
+</keyword>
+<keyword id = "verifyMbaTag">
+<identifier>xpath</identifier>
+<value>.//*[@id='lessTags']/a</value>
+</keyword>
+<keyword id = "verifyMoreTag">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'allTagsDiv')]/div/a</value>
+</keyword>
+<keyword id = "verifyquestionTitle">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'quesTitle')]</value>
+</keyword>
+<keyword id = "verifyDescription">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'entityDesc')]</value>
+</keyword>
+<keyword id = "editoverflowlayer">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'overflowDiv')]/i</value>
+</keyword>
+<keyword id = "abuselayer">
+<identifier>id</identifier>
+<value>raLayer</value>
+</keyword>
+<keyword id = "lateransewerr">
+<identifier>xpath</identifier>
+<value>.//*[@id='markLaterActionLink']/a</value>
+</keyword>
+<keyword id = "abuselayer6">
+<identifier>xpath</identifier>
+<value>(.//*[@id='abuse-layer']//label)[6]</value>
+</keyword>
+<keyword id = "abusetext">
+<identifier>id</identifier>
+<value>reportAbuseReasonText</value>
+</keyword>
+<keyword id = "abusedone">
+<identifier>id</identifier>
+<value>reportAbuseDone</value>
+</keyword>
+<keyword id = "commentdeletelayer">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@ga-attr,'OVERFLOW_')]/i)[2]</value>
+</keyword>
+<keyword id = "delques">
+<identifier>xpath</identifier>
+<value>(.//*[@id='closeDeleteEntity'])[2]</value>
+</keyword>
+<keyword id = "commentdelete">
+<identifier>xpath</identifier>
+<value>(.//*[@id='closeDeleteEntity'])[1]</value>
+</keyword>
+<keyword id = "quesclosed">
+<identifier>xpath</identifier>
+<value>.//*[@class='unmsg-col']/p[contains(text(),'closed for answering')]</value>
+</keyword>
+<keyword id = "commentButton">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'childLink')]</value>
+</keyword>
+<keyword id = "typecomment">
+<identifier>xpath</identifier>
+<value>.//textarea [contains(@id,'entity_text') and contains(@placeholder,'Type')]</value>
+</keyword>
+<keyword id = "performAction">
+<identifier>id</identifier>
+<value>performAction</value>
+</keyword>
+<keyword id = "editTags">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'overflowOptions')]/ul/li[1]/a</value>
+</keyword>
+<keyword id = "editquestionana">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'overflowOptions')]/ul/li[2]/a</value>
+</keyword>
+<keyword id = "viewAllTags">
+<identifier>id</identifier>
+<value>viewAllTags</value>
+</keyword>
+<keyword id = "followButton">
+<identifier>xpath</identifier>
+<value>(.//*[@id='main-wrapper']//descendant::a[contains(@class,'ana-btns')])[1]</value>
+</keyword>
+<keyword id = "thumbsUpText">
+<identifier>xpath</identifier>
+<value>(.//*[@id='main-wrapper']//descendant::a[contains(@class,'up-thumb like-a')])[1]</value>
+</keyword>
+<keyword id = "thumbsUpbutton">
+<identifier>xpath</identifier>
+<value>(.//*[@id='main-wrapper']//descendant::a[contains(@class,'up-thumb like-a')]/i)[1]</value>
+</keyword>
+<keyword id = "thumbsdownbutton">
+<identifier>xpath</identifier>
+<value>(.//*[@id='main-wrapper']//descendant::a[contains(@class,'up-thumb like-d')]/i)[1]</value>
+</keyword>
+<keyword id = "thumbsdownText">
+<identifier>xpath</identifier>
+<value>(.//*[@id='main-wrapper']//descendant::a[contains(@class,'up-thumb like-d')])[1]</value>
+</keyword>
+<keyword id = "followers">
+<identifier>xpath</identifier>
+<value>(.//*[@id='main-wrapper']//descendant::span[@class='follower followersCountTextArea' and contains(text(),'Followers')])[1]</value>
+</keyword>
+<keyword id = "verifyFolowers">
+<identifier>xpath</identifier>
+<value>(.//*[@class='f-ul']//descendant::p[@class='avatar-name'])[1]</value>
+</keyword>
+<keyword id = "clickFollowonLayer">
+<identifier>xpath</identifier>
+<value>(.//*[@class='f-ul']//descendant::div[@class='l-cell']/a)[1]</value>
+</keyword>
+<keyword id = "DiscussionTab">
+<identifier>xpath</identifier>
+<value>.//*[@id='main-wrapper']//descendant::a[@class='head' and contains(text(),'Discussions')]</value>
+</keyword>
+<keyword id = "DiscussionViewMore">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'viewMoreBtn')])[1]</value>
+</keyword>
+<keyword id = "AnswerTab">
+<identifier>xpath</identifier>
+<value>.//*[@id='main-wrapper']//descendant::a[@class='head' and contains(text(),'Unanswered Questions')]</value>
+</keyword>
+<keyword id = "AnswerQuestionDescription">
+<identifier>xpath</identifier>
+<value>.//textarea[contains(@id,'entity_text') and contains(@placeholder,'Write')]</value>
+</keyword>
+<keyword id = "verifyCommentAnswerText">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'lessAnswer')]</value>
+</keyword>
+<keyword id = "CommentAnswerPostButton">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'entityPostingButton')])[2]</value>
+</keyword>
+<keyword id = "CommentAnswerPostButton2">
+<identifier>xpath</identifier>
+<value>(.//*[contains(@id,'entityPostingButton')])[1]</value>
+</keyword>
+<keyword id = "CommentDiscussionDescrition">
+<identifier>xpath</identifier>
+<value>(.//textarea[contains(@id,'entity_text') and contains(@placeholder,'Type Your Commen')])[2]</value>
+</keyword>
+<keyword id = "CommentDiscussionDescrition2">
+<identifier>xpath</identifier>
+<value>(.//textarea[contains(@id,'entity_text') and contains(@placeholder,'Type Your Commen')])[1]</value>
+</keyword>
+<keyword id = "AnswerComment">
+<identifier>xpath</identifier>
+<value>(.//*[@id='main-wrapper']//descendant::a[@class='ana-btns a-btn'])[2]</value>
+</keyword>
+<keyword id = "deleteAnsComment">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'optionCol')]//descendant::i[@class='dot']</value>
+</keyword>
+<keyword id = "signoutUserMouseHover">
+<identifier>xpath</identifier>
+<value>.//*[@id='_globalNav']//descendant::a[@class='n-username']</value>
+</keyword>
+<keyword id = "signoutuser">
+<identifier>xpath</identifier>
+<value>.//*[@id='_globalNav']//descendant::a[@action='logout']</value>
+</keyword>
+
+</AnADesktop>
+<MobileApp>
+<keyword id = "URLtxtBox">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_modifiedUrl</value>
+</keyword>
+<keyword id = "URLDone">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/rv_done_button</value>
+</keyword>
+<keyword id = "fblogin">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_facebook_signup</value>
+</keyword>
+<keyword id = "login">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_already_member_login</value>
+</keyword>
+<keyword id = "signUp">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_email_signup</value>
+</keyword>
+<keyword id = "emailBox">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_email</value>
+</keyword>
+<keyword id = "pswrdBox">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_password</value>
+</keyword>
+<keyword id = "loginbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_login</value>
+</keyword>
+<keyword id = "askheader">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/ic_toolbar_ask_question</value>
+</keyword>
+<keyword id = "fname">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_first_name</value>
+</keyword>
+<keyword id = "lname">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_last_name</value>
+</keyword>
+<keyword id = "signUpbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_sign_up</value>
+</keyword>
+<keyword id = "closeicon">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/iv_profile_builder_close_icon</value>
+</keyword>
+<keyword id = "closetour">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/showcase_button</value>
+</keyword>
+<keyword id="questionlayerbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_start_entity_label</value>
+</keyword>
+<keyword id ="questionbox">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_input_question</value>
+</keyword>
+<keyword id = "Nextbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_post_button</value>
+</keyword>
+<keyword id = "questionpostbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_post_question_button</value>
+</keyword>
+<keyword id="questiontitle">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_question_title</value>
+</keyword>
+<keyword id = "Questionbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_question</value>
+</keyword>
+<keyword id ="questionidbox">
+<identifier>class</identifier>
+<value>android.widget.EditText</value>
+</keyword>
+<keyword id ="Okbtn">
+<identifier>id</identifier>
+<value>android:id/button1</value>
+</keyword>
+<keyword id="writeanswer">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_answer_button</value>
+</keyword>
+<keyword id="followbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_follow_button</value>
+</keyword>
+<keyword id="morebtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/iv_more_options</value>
+</keyword>
+<keyword id="textbox">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_data_to_post</value>
+</keyword>
+<keyword id="postbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/menu_post</value>
+</keyword>
+<keyword id="commentbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_comment_button</value>
+</keyword>
+<keyword id="commenttxt">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_comment_count</value>
+</keyword>
+<keyword id = "editquestion">
+<identifier>xpath</identifier>
+<value>//android.widget.TextView[@text='Edit Question']</value>
+</keyword>
+<keyword id = "editdiscussion">
+<identifier>xpath</identifier>
+<value>//android.widget.TextView[@text='Edit Discussion']</value>
+</keyword>
+<keyword id = "edittags">
+<identifier>xpath</identifier>
+<value>//android.widget.TextView[@text='Edit Tags']</value>
+</keyword>
+<keyword id = "closequestion">
+<identifier>xpath</identifier>
+<value>//android.widget.TextView[@text='Close']</value>
+</keyword>
+<keyword id = "deletequestion">
+<identifier>xpath</identifier>
+<value>//android.widget.TextView[@text='Delete']</value>
+</keyword>
+<keyword id="yesbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_dialog_positive_button</value>
+</keyword>
+<keyword id="closedqnatxt">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_message_entity_closed_or_deleted</value>
+</keyword>
+<keyword id="edittag">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_add_topic</value>
+</keyword>
+<keyword id="tagsearchbox">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_search_tag</value>
+</keyword>
+<keyword id="clicktagname">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_search_item</value>
+</keyword>
+<keyword id="addedtag">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_topic_name</value>
+</keyword>
+<keyword id="addtagbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_add_tag</value>
+</keyword>
+<keyword id="tagcontainer">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/ll_tags_container</value>
+</keyword>
+<keyword id = "digup">
+<identifier>xpath</identifier>
+<value>//android.widget.TextView[@NAF='true' and @index = '0']</value>
+</keyword>
+<keyword id = "digdown">
+<identifier>xpath</identifier>
+<value>//android.widget.TextView[@NAF='true' and @index = '1']</value>
+</keyword>
+<keyword id="upvote">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_upvote_count</value>
+</keyword>
+<keyword id="downvote">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_downvote_count</value>
+</keyword>
+<keyword id='discussion'>
+<identifier>xpath</identifier>
+<value>//android.widget.CheckedTextView[@text='Discussions']</value>
+</keyword>
+<keyword id='logout'>
+<identifier>xpath</identifier>
+<value>//android.widget.CheckedTextView[@text='Logout']</value>
+</keyword>
+<keyword id="hemburger">
+<identifier>class</identifier>
+<value>android.widget.ImageButton</value>
+</keyword>
+<keyword id ="commentcount">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_number_of_answers</value>
+</keyword>
+<keyword id="replybtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/bt_reply_button</value>
+</keyword>
+</MobileApp>
+<CUILP>
+<keyword id="loginDesktop_username">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'loginForm')]//div[contains(@id,'email')]//input</value>
+</keyword>
+<keyword id="loginDesktop_logo">
+<identifier>xpath</identifier>
+<value>.//*[@id='_defaultShortlist']/a</value>
+</keyword>
+<keyword id="loginDesktop_logo">
+<identifier>xpath</identifier>
+<value>.//*[@id='_defaultShortlist']/a</value>
+</keyword>
+<keyword id="Mobile_Bell">
+<identifier>xpath</identifier>
+<value>.//*[@id='bellIcon']</value>
+</keyword>
+<keyword id="Amp_Bell">
+<identifier>xpath</identifier>
+<value>.//*[@id='menu-button']</value>
+</keyword>
+<keyword id="Mobile_noti">
+<identifier>xpath</identifier>
+<value>.//*[@id='ananoitify']</value>
+</keyword>
+<keyword id="Amp_noti">
+<identifier>xpath</identifier>
+<value>.//*[@id='sidebar']//a[@data-vars-event-name='HAMBURGER_LOGOUT']</value>
+</keyword>
+<keyword id="loginDesktop_password">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'loginForm')]//div[contains(@id,'password')]//input</value>
+</keyword>
+<keyword id="loginDesktop_loginbutton">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'loginForm')]//a[contains(@id,'loginSubmit')]</value>
+</keyword>
+<keyword id="loginDesktop_OTP">
+<identifier>xpath</identifier>
+<value>.//*[contains(@id,'one-time-pass')]</value>
+</keyword>
+<keyword id="loginDesktop_OTPVerifyButton">
+<identifier>xpath</identifier>
+<value>.//*[text()='Verify']</value>
+</keyword>
+<keyword id = "headerName">
+<identifier>xpath</identifier>
+<value>.//*[@id='main-wrapper']/div[7]//descendant::h1</value>
+</keyword>
+<keyword id="additionaltext">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/et_additional_details</value>
+</keyword>
+<keyword id="dscncommentbtn">
+<identifier>id</identifier>
+<value>com.shiksha.android:id/tv_comment_button</value>
+</keyword>
+</CUILP>
+<Hamburger>
+
+<Mobile-HamBurger>
+<keyword id="Mobile_Location_Txt">
+<identifier>xpath</identifier>
+<value>//input[@placeholder='Enter Location']</value>
+</keyword>
+<keyword id = "Mobile_ham">
+<identifier>xpath</identifier>
+<value>//*[@class='hem-menu _hmPanel_']</value>
+</keyword>
+<keyword id = "Mobile_Select_Stream">
+<identifier>xpath</identifier>
+<value>.//div[contains(text(),'txtid')]</value>
+</keyword>
+<keyword id ="Mobile_firstCross">
+<identifier>xpath</identifier>
+<value>//a[@class='btnCross']</value>
+</keyword>
+<keyword id="Mobile_Ham_Lvl2">
+<identifier>xpath</identifier>
+<value>//div[@id='l1Layer']//a[contains(text(),'txtid')]</value>
+</keyword>
+<keyword id="Mobile_Ham_Lvl3">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'subcat-layer') and contains(@class,'zero-marginleft')]//*[text()='txtid']</value>
+</keyword>
+<keyword id="Mobile_Ham_PWA_Lvl3">
+<identifier>xpath</identifier>
+<value>//div[@class='subcat-layer show zero-marginleft']//*[contains(text(),'txtid')]</value>
+</keyword>
+<keyword id="Mobile_PWA_Ham_Back">
+<identifier>xpath</identifier>
+<value>//div[@class='subcat-layer show zero-marginleft']//label[@class='hamburger-back']</value>
+</keyword>
+<keyword id="Mobile_Ham_Lvl4">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'subcat-layer') and contains(@class,'zero-marginleft')]//div//*[(contains(text(),'txtid'))and contains(@class,'subchild-l3')]</value>
+</keyword>
+
+<keyword id="Mobile_CheckBox_Location_Tab">
+<identifier>xpath</identifier>
+<value>//div[@class='Customcheckbox']</value>
+</keyword>
+<keyword id="PWA_CheckBox_Location_Search">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'pwa-lyrSrc')]//input</value>
+</keyword>
+<keyword id="Mobile_RadioBox_Location_Tab">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'customSelectCountry')]//ul/li</value>
+</keyword>
+<keyword id="Mobile_Location">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'customSelect') and contains(@class,'editable')]//ul/li//span[text()='txtid']</value>
+</keyword>
+<keyword id="Mobile_Normal_Location">
+<identifier>xpath</identifier>
+<value>//div[@id='custom-slct']//li</value>
+</keyword>
+<keyword id="Mobile_Checkbox_Location">
+<identifier>xpath</identifier>
+<value>(//ul[@class='drpdwn-ul']//li//label[contains(text(),'txtid')])</value>
+</keyword>
+<keyword id="Mobile_Checkbox_Location_Next">
+<identifier>xpath</identifier>
+<value>(((//ul[@class='drpdwn-ul']//li//label[contains(text(),'txtid')])/parent::div)/parent::li)/following-sibling::li</value>
+</keyword>
+<keyword id="Mobile_Location_CheckBox_Search">
+<identifier>xpath</identifier>
+<value>//input[@placeholder = 'Enter Location']</value>
+</keyword>
+<keyword id="Mobile_PWA_Location_List">
+<identifier>xpath</identifier>
+<value>//div[@class='pwa-cont pad']//li[text()='txtid']</value>
+</keyword>
+<keyword id="PWA_Location_Search">
+<identifier>xpath</identifier>
+<value>//div[@class='pwa-lyrSrc']//input</value>
+</keyword>
+<keyword id="PWA_Location">
+<identifier>xpath</identifier>
+<value>//div[@class='pwa-cont pad']</value>
+</keyword>
+<keyword id="Mobile_L3_Element">
+<identifier>xpath</identifier>
+<value>//ul[contains(@class,'g_lev3')]//a</value>
+</keyword>
+<keyword id="Mobile_L3_Element_Spl">
+<identifier>xpath</identifier>
+<value>//li[@class='g_lev1 active']//ul[@class='g_lev2']//li[@class='activee']//a</value>
+</keyword>
+<keyword id="Mobile_Mobile_footer">
+<identifier>xpath</identifier>
+<value>//section[@class='tac footer-child']</value>
+</keyword>
+<keyword id="Mobile_Ham_UserIcon">
+<identifier>xpath</identifier>
+<value>//div[@class='user-img-ham']</value>
+</keyword>
+<keyword id="Mobile_Ham_Login">
+<identifier>xpath</identifier>
+<value>//p[@class='log-block']//a[@class='log-in']</value>
+</keyword>
+<keyword id="Mobile_CheckBox_Location_Submit">
+<identifier>id</identifier>
+<value>saveMultiSelect</value>
+</keyword>
+<keyword id="PWA_CheckBox_Location">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'Customcheckbox')]//label[text()='txtid']</value>
+</keyword>
+<keyword id="Mobile_specilization">
+<identifier>xpath</identifier>
+<value>.//span[text()='txtid']</value>
+</keyword>
+</Mobile-HamBurger>
+
+<keyword id = "ham">
+<identifier>xpath</identifier>
+<value>.//*[@id='page-header']//descendant::span[@class='icon-bar']</value>
+</keyword>
+<keyword id = "Specialization">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Find Colleges by Specialization')]</value>
+</keyword>
+<keyword id = "course">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Find Colleges by Course')]</value>
+</keyword>
+<keyword id = "ranking">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'College Rankings')]</value>
+</keyword>
+<keyword id = "SpecializationCategories">
+<identifier>xpath</identifier>
+<value>.//*[@id='fcl2']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "CourseCategories">
+<identifier>xpath</identifier>
+<value>.//*[@id='bcStream']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "RankingCategories">
+<identifier>xpath</identifier>
+<value>.//*[@id='rankingLayer2']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "FinalSubElements">
+<identifier>xpath</identifier>
+<value>.//*[@id='fcl3']//descendant::a[@catid='mycatid' and @class='subchild-l3']</value>
+</keyword>
+<keyword id = "FinalSubElementsCourse">
+<identifier>xpath</identifier>
+<value>.//*[@id='fclbc']//descendant::a[@catid='mycatid' and @class='subchild-l3']</value>
+</keyword>
+<keyword id = "FinalSubElementsRanking">
+<identifier>xpath</identifier>
+<value>.//*[@id='fclrank']//descendant::a[@catid='mycatid' and @class='subchild-l3']</value>
+</keyword>
+<keyword id = "FinalSubCatElements">
+<identifier>xpath</identifier>
+<value>.//*[@id='fcl4']//descendant::a[@catid='mycatid'  and contains(@class,'subchild-l3') and @subcatid = 'mysubcatid']</value>
+</keyword>
+<keyword id = "selectLocation">
+<identifier>id</identifier>
+<value>locationSelect_input_city_1</value>
+</keyword>
+<keyword id = "pageLoad">
+<identifier>xpath</identifier>
+<value>(//*[contains(@id, 'instituteName')])[1]</value>
+</keyword>
+<keyword id = "rankingpageLoad">
+<identifier>xpath</identifier>
+<value>(.//*[@id='rankingPageTable']//descendant::a[contains(@id, 'compare')])[1]</value>
+</keyword>
+<keyword id = "review">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Read Student Reviews')]</value>
+</keyword>
+<keyword id = "ReviewCategories">
+<identifier>xpath</identifier>
+<value>.//*[@id='collegeReviewl2']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "reviewpageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='wrapper']//descendant::h1</value>
+</keyword>
+<keyword id = "compare">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Compare Colleges')]</value>
+</keyword>
+<keyword id = "comparepageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='wrapper']//descendant::h1</value>
+</keyword>
+<keyword id = "examdetail">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'View Exam Details')]</value>
+</keyword>
+<keyword id = "examdetaillist">
+<identifier>xpath</identifier>
+<value>.//*[@id='examlistl2']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "FinalSubElementsExamDetail">
+<identifier>xpath</identifier>
+<value>.//*[@id='examlistl3']//descendant::a[@catid='mycatid' and @class='subchild-l3']</value>
+</keyword>
+<keyword id = "examdetailpageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='pageMainContainerId']//descendant::h1</value>
+</keyword>
+<keyword id = "ExamDates">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Check exam dates')]</value>
+</keyword>
+<keyword id = "ExamDates_1">
+<identifier>xpath</identifier>
+<value>.//*[@id='examImpDatel2']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "examDatePageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='cale-header']//descendant::h1</value>
+</keyword>
+<keyword id = "layerclose">
+<identifier>xpath</identifier>
+<value>.//div[@class='cale-tour coach-mark-box']/a/i</value>
+</keyword>
+<keyword id = "PredictExamRank">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Predict your Exam Rank')]</value>
+</keyword>
+<keyword id = "Predict_Exam_Rank_1">
+<identifier>xpath</identifier>
+<value>.//*[@id='rpl2']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "predictexamPageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='wrapper']//descendant::article</value>
+</keyword>
+<keyword id = "PredictcollegeRank">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Predict college basis rank/score')]</value>
+</keyword>
+<keyword id = "Predict_College_Rank_1">
+<identifier>xpath</identifier>
+<value>.//*[@id='cpl2']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "predictcollegePageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='headingDiv']//descendant::h1</value>
+</keyword>
+<keyword id = "IIM">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'IIM Call Predictor')]</value>
+</keyword>
+<keyword id = "IIMpageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='iimpredictorWelcome']//descendant::h2</value>
+</keyword>
+<keyword id = "Salary">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Check Alumni Salary Data')]</value>
+</keyword>
+<keyword id = "SalarypageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='defualtSelection']//descendant::h1</value>
+</keyword>
+<keyword id = "askshikshaexperts">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Ask Shiksha Experts')]</value>
+</keyword>
+<keyword id = "QnABox_Ask_Experts">
+<identifier>id</identifier>
+<value>nxt-btn-post</value>
+</keyword>
+<keyword id = "askcurrentstudents">
+<identifier>xpath</identifier>
+<value>.//*[@id='l1Layer']//descendant::a[contains(text(), 'Ask Current Students')]</value>
+</keyword>
+<keyword id = "askcurrentstudents_1">
+<identifier>xpath</identifier>
+<value>.//*[@id='repStream']//descendant::div[@class='subcat-nav']/div/a</value>
+</keyword>
+<keyword id = "askcurrentstudPageLoad">
+<identifier>xpath</identifier>
+<value>.//*[@id='wrapper']//descendant::h1</value>
+</keyword>
+</Hamburger>
+<DesktopGNB>
+<keyword id = "GNBLayer1">
+<identifier>xpath</identifier>
+<value>.//*[@id='_innerNav']//descendant::li[contains(@class,'g_lev1')]</value>
+</keyword>
+<keyword id = "GNBLayer2">
+<identifier>xpath</identifier>
+<value>(.//*[@id='_innerNav']//descendant::ul[contains(@class,'g_lev2')])[layer1i]/li</value>
+</keyword>
+<keyword id = "GNBLayer3">
+<identifier>xpath</identifier>
+<value>(.//*[@id='_innerNav']//descendant::ul[contains(@class,'g_lev3')])[layer2j]/li</value>
+</keyword>
+<keyword id = "GNBLayer3_2">
+<identifier>xpath</identifier>
+<value>((.//*[@id='_innerNav']//descendant::ul[contains(@class,'g_lev2')])[layer1i]/li//descendant::div [contains(@class,'submenu2')])[layer2j]//descendant::ul[contains(@class,'g_lev3')]/li</value>
+</keyword>
+<keyword id = "GNBLayerDOWN">
+<identifier>xpath</identifier>
+<value>(.//*[@id='_innerNav']//descendant::i[@class='go-dwn'])[layer1i]</value>
+</keyword>
+<keyword id = "VerifyLogo">
+<identifier>xpath</identifier>
+<value>.//*[@id='_globalNav']//descendant::i[@class='icons ic_logo']</value>
+</keyword>
+<keyword id = "VerifySorry">
+<identifier>xpath</identifier>
+<value>(.//*[@id='content-wrapper']//descendant::span)[1]</value>
+</keyword>
+<keyword id = "VerifySorry2">
+<identifier>xpath</identifier>
+<value>.//*[@id='search-container-wrapper']//descendant::h1</value>
+</keyword>
+</DesktopGNB>
+<PWA>
+<keyword id="TopSection">
+<identifier>xpath</identifier>
+<value>.//*[@id='CLP']/section[1]</value>
+</keyword>
+<keyword id="instituteName">
+<identifier>xpath</identifier>
+<value>(.//*[@class='clp-hdr']//descendant::span/a)[1]</value>
+</keyword>
+<keyword id="PWAcourseName">
+<identifier>xpath</identifier>
+<value>.//*[@class='clp-hdr']//descendant::h1</value>
+</keyword>
+<keyword id="coursecaption">
+<identifier>xpath</identifier>
+<value>.//*[@class='clp-hdr']//descendant::ul/li</value>
+</keyword>
+<keyword id="durationDisclamarSign">
+<identifier>xpath</identifier>
+<value>.//*[@class='clp-hdr']//descendant::ul/li/i</value>
+</keyword>
+<keyword id="durationTextMatch">
+<identifier>xpath</identifier>
+<value>//div[@class='option_wrap']</value>
+</keyword>
+<keyword id="layerclose_pwa">
+<identifier>xpath</identifier>
+<value>//div[@class='pwa-hd']/a</value>
+</keyword>
+<keyword id="courseDetails">
+<identifier>xpath</identifier>
+<value>.//*[@class='clg-col']/span</value>
+</keyword>
+<keyword id="moreLayer">
+<identifier>xpath</identifier>
+<value>.//*[@class='clg-col']/span/a</value>
+</keyword>
+<keyword id="iconLayer">
+<identifier>xpath</identifier>
+<value>.//*[@class='clg-col']/p/span/i</value>
+</keyword>
+<keyword id="dataOnLayer">
+<identifier>xpath</identifier>
+<value>.//div[@class='amen-box']/p</value>
+</keyword>
+<keyword id="dataOnLayerHeading">
+<identifier>xpath</identifier>
+<value>.//div[@class='amen-box']/strong</value>
+</keyword>
+<keyword id="feeDisclamar">
+<identifier>xpath</identifier>
+<value>.//div[@class='option_wrap']/p</value>
+</keyword>
+<keyword id="AffiliatedTo">
+<identifier>xpath</identifier>
+<value>.//div[@class='clg-detail']//li/p/a</value>
+</keyword>
+<keyword id="topimpdates_ActualDates">
+<identifier>xpath</identifier>
+<value>(.//*[@class='circle-block current']//p)[1]</value>
+</keyword>
+<keyword id="topsectiondatetext">
+<identifier>xpath</identifier>
+<value>.//*[@class='dot-div']/h2</value>
+</keyword>
+<keyword id="topsectiondate">
+<identifier>xpath</identifier>
+<value>.//*[@class='dot-div']/p</value>
+</keyword>
+<keyword id="topimpdates_Actualtext">
+<identifier>xpath</identifier>
+<value>(.//*[@class='circle-block current']//p)[2]</value>
+</keyword>
+<keyword id="expandAllML">
+<identifier>xpath</identifier>
+<value>//label[contains(@for,'city_locality')]//i</value>
+</keyword>
+<keyword id="getALLML">
+<identifier>xpath</identifier>
+<value>//ul[@class='prm-lst chng-bList']//li//a</value>
+</keyword>
+<keyword id="clickChangeBranch">
+<identifier>xpath</identifier>
+<value>.//*[@class='clp-hdr']//a[contains(text(),'Change branch')]
+</value>
+</keyword>
+<keyword id="courseStructureSection">
+<identifier>xpath</identifier>
+<value>.//*[@id='structure']</value>
+</keyword>
+<keyword id="courseStructureHeading">
+<identifier>xpath</identifier>
+<value>.//*[@id='structure']//h3</value>
+</keyword>
+<keyword id="courseStructureViewAllButton">
+<identifier>xpath</identifier>
+<value>.//*[@id='structure']//a</value>
+</keyword>
+<keyword id="courseStructureViewAllButton">
+<identifier>xpath</identifier>
+<value>.//*[@id='structure']//a</value>
+</keyword>
+<keyword id="allCourseOnLayer">
+<identifier>xpath</identifier>
+<value>.//*[@id='fullLayer-container']//li</value>
+</keyword>
+<keyword id="allHeadingOnLayer">
+<identifier>xpath</identifier>
+<value>.//*[@id='fullLayer-container']//h3</value>
+</keyword>
+<keyword id="allCourseOnPage">
+<identifier>xpath</identifier>
+<value>.//*[@id='structure']//li</value>
+</keyword>
+</PWA>
+
+<CollegeReview>
+<keyword id="CRF_Institute">
+<identifier>id</identifier>
+	<value>dummy_input</value>
+</keyword>
+<keyword id="CRF_selectInstitute">
+<identifier>className</identifier>
+	<value>suggestion-box-normal-option</value>
+</keyword>
+<keyword id="CRF_selectCourse">
+<identifier>id</identifier>
+	<value>course_1</value>
+</keyword>
+<keyword id="CRF_selectYear">
+<identifier>id</identifier>
+	<value>yearOfGraduation</value>
+</keyword>
+<keyword id="CRF_enterPlacement">
+<identifier>id</identifier>
+	<value>placementDescription</value>
+</keyword>
+<keyword id="CRF_enterInfra">
+<identifier>id</identifier>
+	<value>infraDescription</value>
+</keyword>
+<keyword id="CRF_enterFaculty">
+<identifier>id</identifier>
+	<value>facultyDescription</value>
+</keyword>
+<keyword id="CRF_enterOther">
+<identifier>id</identifier>
+	<value>review-ugcollege</value>
+</keyword>
+<keyword id="CRF_enterTitle">
+<identifier>id</identifier>
+	<value>titleReview</value>
+</keyword>
+<keyword id="CRF_enterTitle">
+<identifier>id</identifier>
+	<value>titleReview</value>
+</keyword>
+<keyword id="CRF_selectRecommend">
+<identifier>xpath</identifier>
+	<value>.//*[@id='reviewForm']/div[3]/div/div[7]/li/input[1]</value>
+</keyword>
+<keyword id="CRF_enterFname">
+<identifier>id</identifier>
+	<value>firstname</value>
+</keyword>
+<keyword id="CRF_enterLname">
+<identifier>id</identifier>
+	<value>lastname</value>
+</keyword>
+<keyword id="CRF_enterEmail">
+<identifier>id</identifier>
+	<value>email</value>
+</keyword>
+<keyword id="CRF_enterSocial">
+<identifier>id</identifier>
+	<value>facebookURL</value>
+</keyword>
+<keyword id="CRF_enterMobile">
+<identifier>id</identifier>
+	<value>mobile</value>
+</keyword>
+<keyword id="CRF_clickSubmit">
+<identifier>id</identifier>
+	<value>reviewSubmitButton</value>
+</keyword>
+<keyword id="CRF_clickSubmitMob">
+<identifier>xpath</identifier>
+	<value>.//*[@id='collegeReviewInfo']/input</value>
+</keyword>
+</CollegeReview>
+
+</FE>
+</National>
+
+
+<SA>
+<Filters>
+
+<Study-Abroad-Mobile-Filter>
+<keyword id="SA_CTP_frame">
+<identifier>id</identifier>
+<value>iframe_div</value>
+</keyword>
+<keyword id="StudyAbroad_Search_First_Ok">
+<identifier>id</identifier>
+<value>cmarkOkButton</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter_Open">
+<identifier>xpath</identifier>
+<value>//div[@id='ftwrap']/div/p[text()='Filter your results']</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter">
+<identifier>xpath</identifier>
+<value>//a[@id='fll']</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter_Tabs">
+<identifier>xpath</identifier>
+<value>//div[@id='searchFilter']/ul/li</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter_option">
+<identifier>xpath</identifier>
+<value>//div[@class='fil-sec']/div[@class='options']/div[not(@style='display: none;')]</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter_Location_Option">
+<identifier>xpath</identifier>
+<value>//div[@id='srchfilterTab11']</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_Mobile_Filter_Button">
+<identifier>xpath</identifier>
+<value>//section[@class='filter-tabs']/a[@class='first-tab ui-link']//div/p[text()='Filters']</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_Filter_All_Mobile">
+<identifier>xpath</identifier>
+<value>//section[@class='explore-filters']</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_Mobile_Filter_Links">
+<identifier>xpath</identifier>
+<value>//article[@style='display: block;']/ul/li</value>
+</keyword>
+<keyword id = "StudyAbroad_CTP_Mobile_Filter_Exam_Error">
+<identifier>xpath</identifier>
+<value>//section[@class='content-wrap clearfix exam-score-layer']/div/strong[text()='Cannot select more than 1 exam score']</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_Mobile_Filter_Exam_Error_Ok">
+<identifier>xpath</identifier>
+<value>//div[@class='clearfix']//a[not(@style='display: none;')]</value>
+</keyword>
+<keyword id="StudyAbroad_Search_SelectedFilters">
+<identifier>xpath</identifier>
+<value>//div[@class='fil-selctn']/div[contains(text(),'txtid')]</value>
+</keyword>
+</Study-Abroad-Mobile-Filter>
+
+<Study-Abroad-Desktop-Filter>
+<keyword id="StudyAbroad_CTP_Filter_All">
+<identifier>xpath</identifier>
+<value>//div[@class='refine-container clearwidth']/div[@class='refine-by-title clearfix']/div</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_Filters_Heading">
+<identifier>xpath</identifier>
+<value>//div[@class='refine-container clearwidth']/div[@class='refine-by-title clearfix']/div[txtid]</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_Filter_List">
+<identifier>xpath</identifier>
+<value>//div[@class='refine-details customInputs clearwidth']/div[txtid]//ul/li</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter_Tabs_All">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'newAcrdn')]</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter_Tab">
+<identifier>xpath</identifier>
+<value>//div[contains(@class,'newAcrdn')][txtid]</value>
+</keyword>
+<keyword id="StudyAbroad_Search_Filter_Content">
+<identifier>xpath</identifier>
+<value>(//div[contains(@class,'contentBlock')])[txtid]</value>
+</keyword>
+<keyword id="StudyAbroad_Selected_Filters">
+<identifier>xpath</identifier>
+<value>//div[@id='heightCheck']//a[contains(text(),'txtid')]</value>
+</keyword>
+<keyword id="StudyAbroad_College_Count">
+<identifier>xpath</identifier>
+<value>//h2[@class='srpHeading']</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_ExamAccept_ErrorMessage">
+<identifier>xpath</identifier>
+<value>//div[@class='abroad-layer-content']</value>
+</keyword>
+<keyword id="StudyAbroad_CTP_Selected_Filter">
+<identifier>xpath</identifier>
+<value>//div[@class='selected-items']//p[text()='txtid']</value>
+</keyword>
+
+</Study-Abroad-Desktop-Filter>
+
+</Filters>
+<CMS>
+<keyword id = "MILCMS_Email">
+<identifier>id</identifier>
+<value>username</value>
+</keyword>
+<keyword id = "MILCMS_Pass">
+<identifier>id</identifier>
+<value>password1</value>
+</keyword>
+<keyword id = "MILCMS_Login">
+<identifier>xpath</identifier>
+<value>//input[@value='Login']</value>
+</keyword>
+<keyword id = "MILCMS_PostForClient">
+<identifier>linkText</identifier>
+<value>Post for Client</value>
+</keyword>
+<keyword id = "MILCMS_Clientid">
+<identifier>id</identifier>
+<value>clientId</value>
+</keyword>
+<keyword id = "MILCMS_Search">
+<identifier>xpath</identifier>
+<value>//button[@onclick='validateQuoteUsers();']</value>
+</keyword>
+<keyword id = "MILCMS_SelectRadio">
+<identifier>id</identifier>
+<value>userNo_1</value>
+</keyword>
+<keyword id = "MILCMS_Unset">
+<identifier>xpath</identifier>
+<value>//input[@value='Unset Main Institute']</value>
+</keyword>
+<keyword id = "MILCMS_SelectClientid">
+<identifier>id</identifier>
+<value>userNo_1</value>
+</keyword>
+<keyword id = "MILCMS_SetMain">
+<identifier>xpath</identifier>
+<value>//input[@value='Set Main Institute']</value>
+</keyword>
+<keyword id = "MILCMS_Clickdropdown">
+<identifier>xpath</identifier>
+<value>//select[@name='countryRequested']</value>
+</keyword>
+<keyword id = "MILCMS_SelectAbroad">
+<identifier>name</identifier>
+<value>countryRequested</value>
+</keyword>
+<keyword id = "MILCMS_Selectlisting">
+<identifier>id</identifier>
+<value>selectedListingId_0</value>
+</keyword>
+<keyword id = "MILCMS_SelectSubscription">
+<identifier>id</identifier>
+<value>selectedSubscription</value>
+</keyword>
+<keyword id = "MILCMS_ChooseCountry">
+<identifier>id</identifier>
+<value>countryId</value>
+</keyword>
+<keyword id = "MILCMS_ChooseCategory">
+<identifier>id</identifier>
+<value>categoryId</value>
+</keyword>
+<keyword id = "MILCMS_SetKeyPage">
+<identifier>xpath</identifier>
+<value>.//button[contains(@onclick,'setKeyPage')]</value>
+</keyword>
+<keyword id = "MILCMS_HitUnset">
+<identifier>id</identifier>
+<value>bttnSubmit</value>
+</keyword>
+</CMS>
+<FE>
+<keyword id = "OpenSearchLayer">
+<identifier>xpath</identifier>
+<value>.//div[@id='homeSeachTextBox']</value>
+</keyword>
+<keyword id = "waitCourseSuggestorLayer">
+<identifier>xpath</identifier>
+<value>.//ul[@class='srchFilterUl']</value>
+</keyword>
+<keyword id = "waitLocationSuggestorLayer">
+<identifier>xpath</identifier>
+<value>.//*[@id='locSuggs']//ul//li</value>
+</keyword>
+<keyword id = "ClickOnSearchBox">
+<identifier>id</identifier>
+<value>mainSearchBox</value>
+</keyword>
+<keyword id = "SelectLocation">
+<identifier>xpath</identifier>
+<value>.//input[@id='locInput']</value>
+</keyword>
+<keyword id = "SelectFees">
+<identifier>xpath</identifier>
+<value>.//*[@id='feeSlider']/span[1]</value>
+</keyword>
+<keyword id = "SelectExam">
+<identifier>xpath</identifier>
+<value>.//p[contains(text(),'Select Exam')]</value>
+</keyword>
+<keyword id = "SelectExamfromlist">
+<identifier>xpath</identifier>
+<value>.//*[@class='showOptns']//ul/li</value>
+</keyword>
+<keyword id = "ExamScoreMobileLeft">
+<identifier>xpath</identifier>
+<value>.//*[@id='examScoreSlider']/span[1]</value>
+</keyword>
+<keyword id = "ExamScoreMobileRight">
+<identifier>xpath</identifier>
+<value>.//*[@id='examScoreSlider']/span[2]</value>
+</keyword>
+<keyword id = "OpenSearchLayerMobile">
+<identifier>xpath</identifier>
+<value>(//*[contains(@class,'seachableElement')])[2]</value>
+</keyword>
+<keyword id = "TypeinSearchBox">
+<identifier>id</identifier>
+<value>mainSearchBox</value>
+</keyword>
+<keyword id = "waitCourseSuggestorLayer">
+<identifier>xpath</identifier>
+<value>//div[@id='mainSuggs']//ul</value>
+</keyword>
+<keyword id = "SelectLocation">
+<identifier>xpath</identifier>
+<value>.//input[@id='locInput']</value>
+</keyword>
+<keyword id = "waitLocationSuggestorLayer">
+<identifier>xpath</identifier>
+<value>//div[@id='locSuggs']//ul</value>
+</keyword>
+<keyword id = "SelectFees">
+<identifier>xpath</identifier>
+<value>.//*[@id='feeSlider']/span[1]</value>
+</keyword>
+<keyword id = "HitSearch">
+<identifier>id</identifier>
+<value>searchGoButton</value>
+</keyword>
+<keyword id = "SelectExamMobile">
+<identifier>xpath</identifier>
+<value>//select[@id='examAdvOpt']</value>
+</keyword>
+<keyword id = "SelectExamfromlist">
+<identifier>xpath</identifier>
+<value>//select[@id='examAdvOpt']//option</value>
+</keyword>
+<keyword id = "ExamScore">
+<identifier>xpath</identifier>
+<value>.//*[@id='examScoreSlider']/span[1]</value>
+</keyword>
+<keyword id = "SelectExamLeftScore">
+<identifier>xpath</identifier>
+<value>.//p[contains(text(),'Select Exam Scores')]</value>
+</keyword>
+<keyword id = "SelectExamRightScore">
+<identifier>xpath</identifier>
+<value>.//p[contains(text(),'Select Exam Scores')]</value>
+</keyword>
+<keyword id = "HitSearchMobile">
+<identifier>id</identifier>
+<value>searchGoButton</value>
+</keyword>
+<keyword id = "Menu">
+<identifier>xpath</identifier>
+<value>//p[@class='menu-cls']</value>
+</keyword>
+
+
+<keyword id="UniversitySearchPage_DownloadBrochure">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Download Brochure')])[1]</value>
+</keyword>
+<keyword id="GAFPEC_Middle">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Book a free profile')])[2]</value>
+</keyword>    
+<keyword id="planradiobutton">
+<identifier>xpath</identifier>
+<value>//*[contains(@for,'year0')]/span</value>
+</keyword>
+<keyword id="levelradiobutton_Bachelors">
+<identifier>xpath</identifier>
+<value>//input[@value ='Bachelors']/..//p</value>
+</keyword>
+<keyword id="bookedExamDate">
+<identifier>xpath</identifier>
+<value>//*[contains(@for,'examTaken_bookedExamDate')]/span</value>
+</keyword>
+<keyword id="schoolname">
+<identifier>name</identifier>
+<value>currentSchool</value>
+</keyword>
+<keyword id="currentclass">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Current Class')]/parent::div</value>
+</keyword>
+<keyword id="signup_button">
+<identifier>xpath</identifier>
+<value>//*[@id='header-top-section']/div[2]/div/div/a[1]</value>
+</keyword>
+<keyword id="Classselection">
+<identifier>xpath</identifier>
+<value>//li[contains(text(),'Studying in Class 12th')]</value>
+</keyword>
+<keyword id="Board">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Class Xth Board')]/parent::div</value>
+</keyword>
+<keyword id="Exampagescroll">
+<identifier>xpath</identifier>
+<value>//*[@id='commentSection']/div[2]/div/i</value>
+</keyword>
+<keyword id="BoardSelection">
+<identifier>xpath</identifier>
+<value>//li[contains(text(),'CBSE')]</value>
+</keyword>
+<keyword id="CGPA">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Class Xth CGPA')]/parent::div</value>
+</keyword>
+<keyword id="CGPASelection">
+<identifier>xpath</identifier>
+<value>//li[contains(text(),'6 - 6.9')]</value>
+</keyword>
+<keyword id="firstname">
+<identifier>name</identifier>
+<value>firstName</value>
+</keyword>
+<keyword id="lastname">
+<identifier>name</identifier>
+<value>lastName</value>
+</keyword>
+<keyword id="email">
+<identifier>name</identifier>
+<value>email</value>
+</keyword>
+<keyword id="cityfield">
+<identifier>xpath</identifier>
+<value>//div[contains(@class, 'input cityField')]/parent::div</value>
+</keyword>
+<keyword id="city">
+<identifier>xpath</identifier>
+<value>(//div[@class= 'hm-refine-opt ui-menu-item-wrapper'])[1]</value>
+</keyword>
+<keyword id="number">
+<identifier>name</identifier>
+<value>mobile</value>
+</keyword>
+<keyword id="SignUp_DG">
+<identifier>xpath</identifier>
+<value>//a[contains(text(),'Download')]</value>
+</keyword>
+<keyword id="Ok_cookie">
+<identifier>xpath</identifier>
+<value>//a[contains(text(),'OK')]</value>
+</keyword>
+<keyword id="user_button">
+<identifier>xpath</identifier>
+<value>//*[@id='notificationBoxText']</value>
+</keyword>
+<keyword id="Logout">
+<identifier>xpath</identifier>
+<value>//a[contains(@onclick, 'SignOutUser()')]</value>
+</keyword>
+<keyword id="Download_Guide">
+<identifier>xpath</identifier>
+<value>(//*//div//span[contains(text(),'Download Guide')])[1]</value>
+</keyword>
+<keyword id="Categorypage_shortlist">
+<identifier>xpath</identifier>
+<value>(//div//i[@class='cate-sprite add-shortlist'])[1]</value>
+</keyword>
+<keyword id="CategoryPage_DownloadBrochure">
+<identifier>xpath</identifier>
+<value>(//strong[contains(text(), 'Download Brochure')])[1]</value>
+</keyword>
+<keyword id="Logo_click">
+<identifier>xpath</identifier>
+<value>//*[@id='logo']/a/img</value>
+</keyword>
+<keyword id="Categorypage_compare">
+<identifier>xpath</identifier>
+<value>(//p[contains(text(), 'Add to compare')])[1]</value>
+</keyword>
+<keyword id="Compare2">
+<identifier>xpath</identifier>
+<value>//*[@id='recommendationDiv']/div/ul/li[1]/a</value>
+</keyword>
+<keyword id="Compare">
+<identifier>xpath</identifier>
+<value>//*[@id='compareCourseBottomLayer']/div/a[1]/strong</value>
+</keyword>
+<keyword id="Scholarship_categoryPage_DB">
+<identifier>xpath</identifier>
+<value>(//div//a[text()='Download Brochure'])[1]</value>
+</keyword>
+<keyword id="ScholarshipAP_Apply_Sidebar">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(),'Apply Now')])[1]</value>
+</keyword>
+<keyword id="CategoryPage_RMC">
+<identifier>xpath</identifier>
+<value>(//div//a[contains(text(), 'Rate my chances')])[1]</value>
+</keyword>
+<keyword id="examselectionNO">
+<identifier>xpath</identifier>
+<value>//*[contains(@for,'examTaken_no')]/span</value>
+</keyword>
+<keyword id="Validpassport">
+<identifier>xpath</identifier>
+<value>//*[contains(@for,'passport_yes')]/span</value>
+</keyword>
+<keyword id="examselectionYES">
+<identifier>xpath</identifier>
+<value>//*[contains(@for,'examTaken_yes')]/span</value>
+</keyword>
+<keyword id="examscore">
+<identifier>xpath</identifier>
+<value> //*[contains(@for,'exam_IELTS')]/span</value>
+</keyword>
+<keyword id="examscore_entered">
+<identifier>xpath</identifier>
+<value>//input[@name='IELTS_score']</value>
+</keyword>
+<keyword id="Country_dropdown">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'India (+91)')]/parent::div</value>
+</keyword>
+<keyword id="International_country">
+<identifier>xpath</identifier>
+<value>//*[@class='city-lr isdCode']/ul/li</value>
+</keyword>
+<keyword id="country">
+<identifier>xpath</identifier>
+<value>(.//li//div[@class='input'])[1]</value>
+</keyword>
+<keyword id="ok-btn">
+<identifier>xpath</identifier>
+<value>.//a[contains(@class, 'ok-btn')]</value>
+</keyword>
+<keyword id="course">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Preferred Course')]/parent::div</value>
+</keyword>
+<keyword id="selectcourse">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Select course at this university')]/parent::div</value>
+</keyword>
+<keyword id="scrolling">
+<identifier>xpath</identifier>
+<value>//div//strong[contains(text(),'More options')]</value>
+</keyword>
+<keyword id="formid">
+<identifier>xpath</identifier>
+<value>//*[contains(@id,'registrationForm')]</value>
+</keyword>
+<keyword id="courseinline">
+<identifier>xpath</identifier>
+<value>//*[@id='brochure-form-inline']/div[1]/h2</value>
+</keyword>
+<keyword id="select_course">
+<identifier>xpath</identifier>
+<value>//ul//li[@datalvl='Bachelors']</value>
+</keyword>
+<keyword id="logIn">
+<identifier>xpath</identifier>
+<value>//*[@id='header-top-section']/div[2]/div/div/a[2]</value>
+</keyword>
+<keyword id="emailid">
+<identifier>xpath</identifier>
+<value>//*[@id='loginOverlayEmail']</value>
+</keyword>
+<keyword id="password">
+<identifier>xpath</identifier>
+<value>//*[@id='loginOverlayPassword']</value>
+</keyword>
+<keyword id="login_submit">
+<identifier>xpath</identifier>
+<value>//*[@id='submitLogin']</value>
+</keyword>
+<keyword id="Courselogin_downloadBrochure">
+<identifier>xpath</identifier>
+<value>//*[@id='downloadBrochureBellyLink']</value>
+</keyword>
+<keyword id="Courselogin_Compare">
+<identifier>xpath</identifier>
+<value>//*[@id='compareCourseButton']/span</value>
+</keyword>
+<keyword id="Courselogin_shortlist">
+<identifier>xpath</identifier>
+<value>//span[contains(text() , 'Save this course')]</value>
+</keyword>
+<keyword id="Universitylogin_EmailDeatils">
+<identifier>xpath</identifier>
+<value>//*[@id='email-txt']</value>
+</keyword>
+<keyword id="RMC_Coursepage">
+<identifier>xpath</identifier>
+<value>//*[@id='course-dec']/div[1]/div[2]/div[2]/div/a</value>
+</keyword>
+<keyword id="ScholarshipAP_DB_Sidebar">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(),'Download Brochure')])[1]</value>
+</keyword>
+<keyword id="levelradiobutton__Masters">
+<identifier>xpath</identifier>
+<value>//input[@value ='Masters']/..//p</value>
+</keyword>
+<keyword id="Graduation_Stream">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Graduation Stream')]/parent::div</value>
+</keyword>
+<keyword id="StreamSelection">
+<identifier>xpath</identifier>
+<value>//li[contains(text(),'Commerce')]</value>
+</keyword>
+<keyword id="Graduation_Percentage">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Graduation Percentage')]/parent::div</value>
+</keyword>
+<keyword id="PercentageSelection">
+<identifier>xpath</identifier>
+<value>(//ul//li[contains(text(),'40')])[1]</value>
+</keyword>
+<keyword id="workexperience">
+<identifier>xpath</identifier>
+<value>//div[contains(text(),'Work Experience')]/parent::div</value>
+</keyword>
+<keyword id="experienceSelection">
+<identifier>xpath</identifier>
+<value>//li[contains(text(),'1 - 2 years')]</value>
+</keyword>
+<keyword id="ScholarshipAP_DB_belly">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(),'Download Brochure')])[2]</value>
+</keyword>
+<keyword id="ScholarshipAP_Apply_belly">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(),'Apply Now')])[2]</value>
+</keyword>	
+<keyword id="ScholarshipAP_Apply_bottom">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(),'Apply Now')])[3]</value>
+</keyword>	
+<keyword id="ScholarshipAP_DB_bottom">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(),'Download Brochure')])[3]</value>
+</keyword>				
+<keyword id="header_ScholsrhipDB">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Download Scholarship Brochure')]</value>
+</keyword>	
+<keyword id="header_ScholsrhiApply">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Signup to apply for Scholarship')]</value>
+</keyword>	
+<keyword id="header_DownloadBrochure">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Download Brochure')]</value>
+</keyword>	
+<keyword id="header_RateMyChance">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Rate your chances')]</value>
+</keyword>	
+<keyword id="header_Shortlist">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Save Courses')]</value>
+</keyword>	
+<keyword id="header_Compare">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Signup to compare colleges')]</value>
+</keyword>	
+<keyword id="header_Signup">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Signup to get started')]</value>
+</keyword>	
+<keyword id="header_DownloadGuide">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Download Guide')]</value>
+</keyword>	
+<keyword id="ExamPage_DownloadGuide">
+<identifier>xpath</identifier>
+<value>//*[@id='examContentDownloadGuide']/div/a</value>
+</keyword>	
+<keyword id="Applycontent_DownloadGuide">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Download Guide')]</value>
+</keyword>	
+<keyword id="ExamPage_Comment">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'Add your comment')]</value>
+</keyword>	
+<keyword id="ApplyContentPage_Comment">
+<identifier>xpath</identifier>
+<value>//*[@id='commentBox_701']</value>
+</keyword>	
+<keyword id="ExamPage_Submit">
+<identifier>xpath</identifier>
+<value>(//*[contains(text(), 'Submit')])[2]</value>
+</keyword>	
+<keyword id="header_Comment">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), 'Signup to add a comment')]</value>
+</keyword>	
+<keyword id="Thankyoupage">
+<identifier>xpath</identifier>
+<value>//*[@id='sp-wrpr']/div[1]/div/p[1]/i</value>
+</keyword>	
+<keyword id="ThankyoupageRMC">;
+<identifier>xpath</identifier>
+<value>//*[@id='main-wrapper']/div[5]/div/div/p[1]</value>
+</keyword>	
+<keyword id="HeaderSection">
+<identifier>xpath</identifier>
+<value>//*[@id='header-top-section']</value>
+</keyword>	
+<keyword id="countryselection1">
+<identifier>xpath</identifier>
+<value>(//*[@class='nolnht'])[1]/span</value>
+</keyword>	
+<keyword id="countryselection2">
+<identifier>xpath</identifier>
+<value>(//*[@class='nolnht'])[2]/span</value>
+</keyword>	
+<keyword id="countryselection3">
+<identifier>xpath</identifier>
+<value>(//*[@class='nolnht'])[3]/span</value>
+</keyword>	
+<keyword id="alreadyregistered">
+<identifier>xpath</identifier>
+<value>//*[@class='lg-lnk']</value>
+</keyword>	
+<keyword id="bachelorcourse">
+<identifier>xpath</identifier>
+<value>//div//ul//li[contains(text(), 'BE/Btech')]</value>
+</keyword>	
+<keyword id="mastercourse">
+<identifier>xpath</identifier>
+<value>//div//ul//li[contains(text(), 'MBA')]</value>
+</keyword>
+<keyword id="checkforspecilization">
+<identifier>xpath</identifier>
+<value>//*[contains(text(), 'All specializations')]</value>
+</keyword>
+<keyword id="scholarshiplayer">
+<identifier>xpath</identifier>
+<value>//*[@id='newOverlayTitle']</value>
+</keyword>	
+<keyword id="Applycontent_DownloadGuideBelly">
+<identifier>xpath</identifier>
+<value>//*[contains(@class,'button-style dwnld-pdf')]</value>
+</keyword>	
+<keyword id="ArticlePage_Comment">
+<identifier>xpath</identifier>
+<value>//*[@id='commentBox_192']</value>
+</keyword>	
+<keyword id="GuidePage_DGRight">
+<identifier>xpath</identifier>
+<value>//a[contains(text(), 'Download Guide')]</value>
+</keyword>
+<keyword id="GuidePage_DGBelly">
+<identifier>xpath</identifier>
+<value>//span[contains(text(), 'Get it Now!')]</value>
+</keyword>
+<keyword id="GuidePage_Comment">
+<identifier>xpath</identifier>
+<value>//*[@id='commentBox_15']</value>
+</keyword>	
+<keyword id="GAFPEC">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Book a free profile')])[1]</value>
+</keyword>	
+<keyword id="GAFPEC_Bottom">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Book a free profile')])[3]</value>
+</keyword>	
+<keyword id="GAFPEC_Proceed">
+<identifier>xpath</identifier>
+<value>//*[@id='continueBtn']</value>
+</keyword>	
+<keyword id="Book_Pickup1">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Book your pickup')])[1]</value>
+</keyword>	
+<keyword id="Book_Pickup2">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Book your pickup')])[2]</value>
+</keyword>	
+<keyword id="DHL_Page">
+<identifier>xpath</identifier>
+<value>//h2[contains(text(), 'Sender and pick')]</value>
+</keyword>	
+<keyword id="Addcourse">
+<identifier>xpath</identifier>
+<value>(//a[contains(@class, 'add-tag-title')])[1]</value>
+</keyword>	
+<keyword id="Examupload">
+<identifier>xpath</identifier>
+<value>.//*[@id='examScoreUploadButton']</value>
+</keyword>	
+<keyword id="uploadDropdown">
+<identifier>xpath</identifier>
+<value>//*[@id='examScoreDropDown']</value>
+</keyword>	
+<keyword id="uploadDropdown_selection">
+<identifier>xpath</identifier>
+<value>//*[@id='examScoreDropDown']/option[3]</value>
+</keyword>	
+<keyword id="overlay_wait">
+<identifier>xpath</identifier>
+<value>//*[@id='overlayContent']/div[1]/p[1]</value>
+</keyword>	
+<keyword id="overlay_done">
+<identifier>xpath</identifier>
+<value>//button[contains(text(), 'Done')]</value>
+</keyword>
+<keyword id="UniversitySearchPage_DownloadBrochure">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Download Brochure')])[1]</value>
+</keyword>
+<keyword id="GAFPEC_Overlay">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Get a free')])[2]</value>
+</keyword>	
+<keyword id="Sorting_click">
+<identifier>xpath</identifier>
+<value>//*[@id='categorySorter']</value>
+</keyword>		
+<keyword id="fees">
+<identifier>xpath</identifier>
+<value>//strong[contains(text(), '1st Year Total Fees')]/..//p</value>
+</keyword>
+<keyword id="SP_Sorting_click">
+<identifier>xpath</identifier>
+<value>//*[@id='srpHeading']/div/select</value>
+</keyword>	
+<keyword id="SP_fees">
+<identifier>xpath</identifier>
+<value>//p[contains(text(), '1st Year Total Fees')]/..//p[contains(@class, 'costDiv')]</value>
+</keyword>
+<keyword id="SearchPage_DownloadBrochure">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Download Brochure')])[1]</value>
+</keyword>
+<keyword id="SearchPage_RMC">
+<identifier>xpath</identifier>
+<value>(//a[contains(text(), 'Rate my chances')])[2]</value>
+</keyword>
+<keyword id="Searchpage_shortlist">
+<identifier>xpath</identifier>
+<value>(//div//i[@class='srpSprite iStar'])[1]</value>
+</keyword>
+<keyword id="Searchpage_compare">
+<identifier>xpath</identifier>
+<value>(//p[contains(text(), 'Add to compare')])[1]</value>
+</keyword>
+<keyword id="Searchpage_Tupple">
+<identifier>xpath</identifier>
+<value>(//*[@class='titleOfClg'])[1]</value>
+</keyword>
+<keyword id="Categorypage_Tupple">
+<identifier>xpath</identifier>
+<value>(//*[@class='tuple-detail'])[1]</value>
+</keyword>
+<keyword id="SATExam">
+<identifier>xpath</identifier>
+<value>//P[contains(text(), 'SAT:')]</value>
+</keyword>
+<keyword id="GMATExam">
+<identifier>xpath</identifier>
+<value>//P[contains(text(), 'GMAT:')]</value>
+</keyword>
+<keyword id="IELTSExam">
+<identifier>xpath</identifier>
+<value>//P[contains(text(), 'IELTS:')]</value>
+</keyword>
+<keyword id="GREExam">
+<identifier>xpath</identifier>
+<value>//P[contains(text(), 'GRE:')]</value>
+</keyword>
+<keyword id="Sorting_click_mobile">
+<identifier>xpath</identifier>
+<value>//p[contains(@class, 'sort-text')]</value>
+</keyword>	
+<keyword id="Categorypage_TuppleMobile">
+<identifier>xpath</identifier>
+<value>(//div[contains(@class, 'tupple-details')])[1]</value>
+</keyword>
+<keyword id="fees_mobile">
+<identifier>xpath</identifier>
+<value>//label[contains(text(), '1st Year Fees')]/..//strong</value>
+</keyword>
+<keyword id="LowToHigh_mobile">
+<identifier>xpath</identifier>
+<value>//p[contains(text(),'Low to high 1st year total fees')]</value>
+</keyword>
+<keyword id="HighToLow_mobile">
+<identifier>xpath</identifier>
+<value>//p[contains(text(),'High to low 1st year total fees')]</value>
+</keyword>
+<keyword id="SP_LowToHigh_mobile">
+<identifier>xpath</identifier>
+<value>//label[contains(text(),'Low to high 1st year total fees')]</value>
+</keyword>
+<keyword id="SP_HighToLow_mobile">
+<identifier>xpath</identifier>
+<value>//label[contains(text(),'High to low 1st year total fees')]</value>
+</keyword>
+<keyword id="Searchpage_TuppleMobile">
+<identifier>xpath</identifier>
+<value>(//div[contains(@class, 'srcRs-det')])[1]</value>
+</keyword>
+<keyword id="SP_Sorting_click_mobile">
+<identifier>xpath</identifier>
+<value>//*[@id='srtBut']</value>
+</keyword>
+<keyword id="SP_fees_mobile">
+<identifier>xpath</identifier>
+<value>//label[contains(text(), '1st year total fees')]/..//span</value>
+</keyword>
+<keyword id="SP_OK">
+<identifier>xpath</identifier>
+<value>//*[@id='cmarkOkButton']</value>
+</keyword>
+<keyword id="getexamhightolow">
+<identifier>xpath</identifier>
+<value>(//option[contains(text(), 'High to low')])[2]</value>
+</keyword>
+<keyword id="getexamlowtohigh">
+<identifier>xpath</identifier>
+<value>(//option[contains(text(), 'Low to high')])[2]</value>
+</keyword>
+<keyword id="CourseInlineLoggedIn">
+<identifier>xpath</identifier>
+<value>//div//a[contains(text(), 'Already registered?')]</value>
+</keyword>
+<keyword id="getexamhightolow_mobile">
+<identifier>xpath</identifier>
+<value>(//p[contains(text(), 'High to low')])[2]</value>
+</keyword>
+<keyword id="getexamlowtohigh_mobile">
+<identifier>xpath</identifier>
+<value>(//p[contains(text(), 'Low to high')])[2]</value>
+</keyword>
+<keyword id="getexamhightolow_SPmobile">
+<identifier>xpath</identifier>
+<value>(//label[contains(text(), 'High to low')])[2]</value>
+</keyword>
+<keyword id="getexamlowtohigh_SPmobile">
+<identifier>xpath</identifier>
+<value>(//label[contains(text(), 'Low to high')])[2]</value>
+</keyword>
+<keyword id="SATExam_mobile">
+<identifier>xpath</identifier>
+<value>//a[contains(text(), 'SAT :')]</value>
+</keyword>
+<keyword id="GMATExam_mobile">
+<identifier>xpath</identifier>
+<value>//a[contains(text(), 'GMAT :')]</value>
+</keyword>
+<keyword id="IELTSExam_mobile">
+<identifier>xpath</identifier>
+<value>//a[contains(text(), 'IELTS :')]</value>
+</keyword>
+<keyword id="GREExam_mobile">
+<identifier>xpath</identifier>
+<value>//a[contains(text(), 'GRE :')]</value>
+</keyword>
+<keyword id="SATExam_mobileSP">
+<identifier>xpath</identifier>
+<value>//span[contains(text(), 'SAT:')]</value>
+</keyword>
+<keyword id="GMATExam_mobileSP">
+<identifier>xpath</identifier>
+<value>//span[contains(text(), 'GMAT:')]</value>
+</keyword>
+<keyword id="IELTSExam_mobileSP">
+<identifier>xpath</identifier>
+<value>//span[contains(text(), 'IELTS:')]</value>
+</keyword>
+<keyword id="GREExam_mobileSP">
+<identifier>xpath</identifier>
+<value>//span[contains(text(), 'GRE:')]</value>
+</keyword>
+<keyword id="SignUp">
+<identifier>xpath</identifier>
+<value>//*[@id='signup']</value>
+</keyword>
+<keyword id="ThankyoupageDG">
+<identifier>xpath</identifier>
+<value>//*[@id='startDownload']</value>
+</keyword>
+</FE>	
+</SA>
+</Shiksha>
